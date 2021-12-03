@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": 80633,
+      "answer": "the Young Men\\'s Christian Association (YMCA)",
+      "question": "George Williams founded the association familiarly known as this to replace life on the street with Bible study",
+      "value": 800,
+      "airdate": "2007-01-12T12:00:00.000Z",
+      "created_at": "2014-02-11T23:39:26.366Z",
+      "updated_at": "2014-02-11T23:39:26.366Z",
+      "category_id": 10587,
+      "game_id": null,
+      "invalid_count": null,
+      "category": {
+      "id": 10587,
+      "title": "the replacements",
+      "created_at": "2014-02-11T23:39:25.722Z",
+      "updated_at": "2014-02-11T23:39:25.722Z",
+      "clues_count": 5
+      }
+      }
+  ]
+}
