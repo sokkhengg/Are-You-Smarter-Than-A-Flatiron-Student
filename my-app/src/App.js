@@ -2,6 +2,7 @@ import './App.css';
 import { useEffect, useState } from 'react';
 import Test from "./Test.js";
 import 'semantic-ui-css/semantic.min.css'
+import Footer from './Footer';
 
 function App() {
   const[questions, setQuestions] = useState([]);
@@ -20,24 +21,6 @@ function App() {
     .then(question => setQuestions(question))
   }, []
   )
-  
-  console.log("hi")
-  console.log("Hello from Sean")
-  console.log("hi2")
-
-  console.log("Hello from sok")
-  console.log("Hello from sok")
-  console.log("Hello from sok")
-  console.log("Hello from sok")
-  
-
-  console.log("Hello from Sean")
-  console.log("Hello from Sean")
-  console.log("Hello from Sean")
-  console.log("Hello from Sean")
-  console.log("Hello from Sean")
-
-
 
   return (
    <div>
@@ -50,6 +33,7 @@ function App() {
          </div>
        )
      })}
+     <Footer />
    </div>
   );
 }
