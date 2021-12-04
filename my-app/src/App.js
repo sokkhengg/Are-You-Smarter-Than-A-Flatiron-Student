@@ -24,11 +24,19 @@ function App() {
   console.log("hi")
   console.log("Hello from Sean")
   console.log("hi2")
+
+  console.log("Hello from sok")
+  console.log("Hello from sok")
+  console.log("Hello from sok")
+  console.log("Hello from sok")
+  
+
   console.log("Hello from Sean")
   console.log("Hello from Sean")
   console.log("Hello from Sean")
   console.log("Hello from Sean")
   console.log("Hello from Sean")
+
 
 
   return (
