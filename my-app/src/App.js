@@ -1,6 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
+import Test from "./Test.js";
+import 'semantic-ui-css/semantic.min.css'
 
 function App() {
   const[questions, setQuestions] = useState([]);
@@ -22,9 +23,18 @@ function App() {
   
   return (
    <div>
-     {(console.log(questions))}
+     
+     {questions.map(q => {
+       return (
+         <div>
+           <Test question={q} />
+         </div>
+       )
+     })}
    </div>
   );
 }
 
 export default App;
+
+
