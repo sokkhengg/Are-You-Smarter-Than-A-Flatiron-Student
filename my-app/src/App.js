@@ -2,7 +2,11 @@ import './App.css';
 import { useEffect, useState } from 'react';
 import Test from "./Test.js";
 import 'semantic-ui-css/semantic.min.css'
+
+import Footer from './Footer';
+
 import Header from "./Header"
+
 
 function App() {
   const[questions, setQuestions] = useState([]);
@@ -26,6 +30,7 @@ function App() {
          </div>
        )
      })}
+     <Footer />
    </div>
   );
 }
