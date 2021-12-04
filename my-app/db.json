@@ -12,12 +12,2102 @@
       "game_id": null,
       "invalid_count": null,
       "category": {
-      "id": 10587,
-      "title": "the replacements",
-      "created_at": "2014-02-11T23:39:25.722Z",
-      "updated_at": "2014-02-11T23:39:25.722Z",
-      "clues_count": 5
+        "id": 10587,
+        "title": "the replacements",
+        "created_at": "2014-02-11T23:39:25.722Z",
+        "updated_at": "2014-02-11T23:39:25.722Z",
+        "clues_count": 5
       }
+    },
+    {
+      "id": 38358,
+      "answer": "Water",
+      "question": "The wilderness was terrible, there were fiery serpents, scorpions & you had to get this out of a rock!",
+      "value": 300,
+      "airdate": "2000-01-17T12:00:00.000Z",
+      "created_at": "2014-02-11T23:08:47.188Z",
+      "updated_at": "2014-02-11T23:08:47.188Z",
+      "category_id": 4616,
+      "game_id": null,
+      "invalid_count": null,
+      "category": {
+        "id": 4616,
+        "title": "deuteronomy",
+        "created_at": "2014-02-11T23:08:46.684Z",
+        "updated_at": "2014-02-11T23:08:46.684Z",
+        "clues_count": 5
+      }
+    },
+    {
+      "id": 38359,
+      "answer": "\"King of Swing\"",
+      "question": "Nickname of the jazzman portrayed here by Al Hirschfeld:(Benny Goodman)",
+      "value": 300,
+      "airdate": "2000-01-17T12:00:00.000Z",
+      "created_at": "2014-02-11T23:08:47.220Z",
+      "updated_at": "2014-02-11T23:08:47.220Z",
+      "category_id": 4617,
+      "game_id": null,
+      "invalid_count": null,
+      "category": {
+        "id": 4617,
+        "title": "royal nicknames",
+        "created_at": "2014-02-11T23:08:46.698Z",
+        "updated_at": "2014-02-11T23:08:46.698Z",
+        "clues_count": 5
+      }
+    },
+    {
+      "id": 38360,
+      "answer": "Grasshopper",
+      "question": "Watch it \"snatch the pebble from my hand\":",
+      "value": 300,
+      "airdate": "2000-01-17T12:00:00.000Z",
+      "created_at": "2014-02-11T23:08:47.248Z",
+      "updated_at": "2014-02-11T23:08:47.248Z",
+      "category_id": 4618,
+      "game_id": null,
+      "invalid_count": null,
+      "category": {
+        "id": 4618,
+        "title": "bein' green",
+        "created_at": "2014-02-11T23:08:46.711Z",
+        "updated_at": "2014-02-11T23:08:46.711Z",
+        "clues_count": 5
+      }
+    },
+    {
+      "id": 38362,
+      "answer": "A woman scorned",
+      "question": "\"Heaven has no rage like love to hatred turned, nor hell a fury like\" this",
+      "value": 300,
+      "airdate": "2000-01-17T12:00:00.000Z",
+      "created_at": "2014-02-11T23:08:47.303Z",
+      "updated_at": "2014-02-11T23:08:47.303Z",
+      "category_id": 4221,
+      "game_id": null,
+      "invalid_count": null,
+      "category": {
+        "id": 4221,
+        "title": "literary quotes",
+        "created_at": "2014-02-11T23:07:05.962Z",
+        "updated_at": "2014-02-11T23:07:05.962Z",
+        "clues_count": 25
+      }
+    },
+    {
+      "id": 38363,
+      "answer": "Judy Holliday",
+      "question": "Actress seen here in her Oscar-winning 1950 performance:",
+      "value": 400,
+      "airdate": "2000-01-17T12:00:00.000Z",
+      "created_at": "2014-02-11T23:08:47.332Z",
+      "updated_at": "2014-02-11T23:08:47.332Z",
+      "category_id": 2930,
+      "game_id": null,
+      "invalid_count": null,
+      "category": {
+        "id": 2930,
+        "title": "the academy awards",
+        "created_at": "2014-02-11T23:01:42.436Z",
+        "updated_at": "2014-02-11T23:01:42.436Z",
+        "clues_count": 15
+      }
+    },
+    {
+      "id": 38364,
+      "answer": "Cattle",
+      "question": "Chapter 7 says love God & he will love ye & bless the increase of your kine, these",
+      "value": 400,
+      "airdate": "2000-01-17T12:00:00.000Z",
+      "created_at": "2014-02-11T23:08:47.360Z",
+      "updated_at": "2014-02-11T23:08:47.360Z",
+      "category_id": 4616,
+      "game_id": null,
+      "invalid_count": null,
+      "category": {
+        "id": 4616,
+        "title": "deuteronomy",
+        "created_at": "2014-02-11T23:08:46.684Z",
+        "updated_at": "2014-02-11T23:08:46.684Z",
+        "clues_count": 5
+      }
+    },
+    {
+      "id": 38365,
+      "answer": "\"Queen of Disco\"",
+      "question": "Aretha Franklin is the Queen of Soul, Donna Summer is this",
+      "value": 400,
+      "airdate": "2000-01-17T12:00:00.000Z",
+      "created_at": "2014-02-11T23:08:47.393Z",
+      "updated_at": "2014-02-11T23:08:47.393Z",
+      "category_id": 4617,
+      "game_id": null,
+      "invalid_count": null,
+      "category": {
+        "id": 4617,
+        "title": "royal nicknames",
+        "created_at": "2014-02-11T23:08:46.698Z",
+        "updated_at": "2014-02-11T23:08:46.698Z",
+        "clues_count": 5
+      }
+    },
+    {
+      "id": 38366,
+      "answer": "Garter snake",
+      "question": "If one of these rides up on you at your wedding, have the bridegroom throw it away:",
+      "value": 400,
+      "airdate": "2000-01-17T12:00:00.000Z",
+      "created_at": "2014-02-11T23:08:47.422Z",
+      "updated_at": "2014-02-11T23:08:47.422Z",
+      "category_id": 4618,
+      "game_id": null,
+      "invalid_count": null,
+      "category": {
+        "id": 4618,
+        "title": "bein' green",
+        "created_at": "2014-02-11T23:08:46.711Z",
+        "updated_at": "2014-02-11T23:08:46.711Z",
+        "clues_count": 5
+      }
+    },
+    {
+      "id": 38367,
+      "answer": "Napoleon",
+      "question": "In 1840 his body was moved from St. Helena to Paris & entombed in the Church of the Dome",
+      "value": 400,
+      "airdate": "2000-01-17T12:00:00.000Z",
+      "created_at": "2014-02-11T23:08:47.449Z",
+      "updated_at": "2014-02-11T23:08:47.449Z",
+      "category_id": 4619,
+      "game_id": null,
+      "invalid_count": null,
+      "category": {
+        "id": 4619,
+        "title": "grave matters",
+        "created_at": "2014-02-11T23:08:46.724Z",
+        "updated_at": "2014-02-11T23:08:46.724Z",
+        "clues_count": 25
+      }
+    },
+    {
+      "id": 38368,
+      "answer": "\"The Fountainhead\"",
+      "question": "This 1943 Ayn Rand novel opens with the line \"Howard Roark laughed\"",
+      "value": 400,
+      "airdate": "2000-01-17T12:00:00.000Z",
+      "created_at": "2014-02-11T23:08:47.472Z",
+      "updated_at": "2014-02-11T23:08:47.472Z",
+      "category_id": 4221,
+      "game_id": null,
+      "invalid_count": null,
+      "category": {
+        "id": 4221,
+        "title": "literary quotes",
+        "created_at": "2014-02-11T23:07:05.962Z",
+        "updated_at": "2014-02-11T23:07:05.962Z",
+        "clues_count": 25
+      }
+    },
+      {
+          "id": 26608,
+          "answer": "The Living Dead",
+          "question": "George Romero made his 1968 horror classic \"Night Of\" these creatures in Pittsburgh",
+          "value": 400,
+          "airdate": "1997-10-17T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:44.326Z",
+          "updated_at": "2014-02-11T23:01:44.326Z",
+          "category_id": 2935,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2935,
+              "title": "oxymorons",
+              "created_at": "2014-02-11T23:01:43.921Z",
+              "updated_at": "2014-02-11T23:01:43.921Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26609,
+          "answer": "U.S.S. Missouri",
+          "question": "This battleship on which the WWII Japanese surrender terms were signed saw combat during the Gulf War",
+          "value": 500,
+          "airdate": "1997-10-17T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:44.342Z",
+          "updated_at": "2014-02-11T23:01:44.342Z",
+          "category_id": 530,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 530,
+              "title": "world history",
+              "created_at": "2014-02-11T22:49:04.489Z",
+              "updated_at": "2014-02-11T22:49:04.489Z",
+              "clues_count": 150
+          }
+      },
+      {
+          "id": 26610,
+          "answer": "<i>Dead Poets Society</i>",
+          "question": "Liam Neeson might have \"seized the day\" in this 1989 film but Robin Williams starred instead",
+          "value": 500,
+          "airdate": "1997-10-17T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:44.358Z",
+          "updated_at": "2014-02-11T23:01:44.358Z",
+          "category_id": 1572,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 1572,
+              "title": "they almost starred in...",
+              "created_at": "2014-02-11T22:54:50.538Z",
+              "updated_at": "2014-02-11T22:54:50.538Z",
+              "clues_count": 15
+          }
+      },
+      {
+          "id": 26611,
+          "answer": "Michael DeBakey",
+          "question": "This Texas doctor famous for his advances in heart surgery is a transplant from Lake Charles, LA",
+          "value": 500,
+          "airdate": "1997-10-17T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:44.374Z",
+          "updated_at": "2014-02-11T23:01:44.374Z",
+          "category_id": 2932,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2932,
+              "title": "louisianians",
+              "created_at": "2014-02-11T23:01:43.387Z",
+              "updated_at": "2014-02-11T23:01:43.387Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26612,
+          "answer": "Hush puppies",
+          "question": "Legend has it this deep-fried cornmeal dumpling was named for its ability to quiet hungry dogs",
+          "value": 500,
+          "airdate": "1997-10-17T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:44.390Z",
+          "updated_at": "2014-02-11T23:01:44.390Z",
+          "category_id": 2933,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2933,
+              "title": "corn fed",
+              "created_at": "2014-02-11T23:01:43.898Z",
+              "updated_at": "2014-02-11T23:01:43.898Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26613,
+          "answer": "Cel",
+          "question": "It's the clear plastic sheet on which a cartoon image is painted",
+          "value": 500,
+          "airdate": "1997-10-17T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:44.406Z",
+          "updated_at": "2014-02-11T23:01:44.406Z",
+          "category_id": 2934,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2934,
+              "title": "art supplies",
+              "created_at": "2014-02-11T23:01:43.910Z",
+              "updated_at": "2014-02-11T23:01:43.910Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 27682,
+          "answer": "Red (ruby)",
+          "question": "Rubricate means to write or paint in this color",
+          "value": null,
+          "airdate": "1999-07-22T12:00:00.000Z",
+          "created_at": "2014-02-11T23:02:20.020Z",
+          "updated_at": "2014-02-11T23:02:20.020Z",
+          "category_id": 750,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 750,
+              "title": "in the dictionary",
+              "created_at": "2014-02-11T22:50:06.120Z",
+              "updated_at": "2014-02-11T22:50:06.120Z",
+              "clues_count": 80
+          }
+      },
+      {
+          "id": 26614,
+          "answer": "Ugly",
+          "question": "A woman of unconventional beauty may be called Jolie-Laide, French for \"pretty-\" this",
+          "value": 500,
+          "airdate": "1997-10-17T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:44.422Z",
+          "updated_at": "2014-02-11T23:01:44.422Z",
+          "category_id": 2935,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2935,
+              "title": "oxymorons",
+              "created_at": "2014-02-11T23:01:43.921Z",
+              "updated_at": "2014-02-11T23:01:43.921Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26615,
+          "answer": "Honolulu",
+          "question": "Aloha Tower stands at the entrance to the harbor of this city",
+          "value": 100,
+          "airdate": "1997-10-16T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:44.890Z",
+          "updated_at": "2014-02-11T23:01:44.890Z",
+          "category_id": 509,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 509,
+              "title": "u.s.a.",
+              "created_at": "2014-02-11T22:48:59.120Z",
+              "updated_at": "2014-02-11T22:48:59.120Z",
+              "clues_count": 85
+          }
+      },
+      {
+          "id": 26616,
+          "answer": "Chuck Norris",
+          "question": "His 1983 character Lone Wolf McQuade was a maverick Texas Ranger; hmmmm, good idea for a TV show",
+          "value": 100,
+          "airdate": "1997-10-16T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:44.908Z",
+          "updated_at": "2014-02-11T23:01:44.908Z",
+          "category_id": 2936,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2936,
+              "title": "martial artists",
+              "created_at": "2014-02-11T23:01:44.806Z",
+              "updated_at": "2014-02-11T23:01:44.806Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26617,
+          "answer": "Borscht",
+          "question": "Chlodnik, a Polish soup made from beets, is a summer variety of this Russian soup",
+          "value": 100,
+          "airdate": "1997-10-16T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:44.924Z",
+          "updated_at": "2014-02-11T23:01:44.924Z",
+          "category_id": 1821,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 1821,
+              "title": "foreign foods",
+              "created_at": "2014-02-11T22:56:17.508Z",
+              "updated_at": "2014-02-11T22:56:17.508Z",
+              "clues_count": 10
+          }
+      },
+      {
+          "id": 26618,
+          "answer": "Ovaries",
+          "question": "The Graafian follicles of these glands contain the female reproductive cells",
+          "value": 100,
+          "airdate": "1997-10-16T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:44.940Z",
+          "updated_at": "2014-02-11T23:01:44.940Z",
+          "category_id": 25,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 25,
+              "title": "science",
+              "created_at": "2014-02-11T22:47:21.788Z",
+              "updated_at": "2014-02-11T22:47:21.788Z",
+              "clues_count": 250
+          }
+      },
+      {
+          "id": 26619,
+          "answer": "Navel (Belly button)",
+          "question": "This point just above the waist has become one of the most popular sites for piercings",
+          "value": 100,
+          "airdate": "1997-10-16T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:44.956Z",
+          "updated_at": "2014-02-11T23:01:44.956Z",
+          "category_id": 2937,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2937,
+              "title": "beauty",
+              "created_at": "2014-02-11T23:01:44.825Z",
+              "updated_at": "2014-02-11T23:01:44.825Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26620,
+          "answer": "Manes",
+          "question": "Male lions are the only members of the cat family to have these & they sometimes turn black as the lion ages",
+          "value": 100,
+          "airdate": "1997-10-16T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:44.972Z",
+          "updated_at": "2014-02-11T23:01:44.972Z",
+          "category_id": 2938,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2938,
+              "title": "the beasts",
+              "created_at": "2014-02-11T23:01:44.837Z",
+              "updated_at": "2014-02-11T23:01:44.837Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26621,
+          "answer": "Pierre, South Dakota",
+          "question": "The name of this state capital isn't pronounced like a French name, but like a synonym for \"dock\"",
+          "value": 200,
+          "airdate": "1997-10-16T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:44.988Z",
+          "updated_at": "2014-02-11T23:01:44.988Z",
+          "category_id": 509,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 509,
+              "title": "u.s.a.",
+              "created_at": "2014-02-11T22:48:59.120Z",
+              "updated_at": "2014-02-11T22:48:59.120Z",
+              "clues_count": 85
+          }
+      },
+      {
+          "id": 26622,
+          "answer": "Steven Seagal",
+          "question": "He's been \"Above the Law\", \"Marked for Death\", \"Hard to Kill\" & \"Out for Justice\"",
+          "value": 200,
+          "airdate": "1997-10-16T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:45.004Z",
+          "updated_at": "2014-02-11T23:01:45.004Z",
+          "category_id": 2936,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2936,
+              "title": "martial artists",
+              "created_at": "2014-02-11T23:01:44.806Z",
+              "updated_at": "2014-02-11T23:01:44.806Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26623,
+          "answer": "Potatoes",
+          "question": "Served with sausage, what the English call \"mash\" is made from this vegetable",
+          "value": 200,
+          "airdate": "1997-10-16T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:45.020Z",
+          "updated_at": "2014-02-11T23:01:45.020Z",
+          "category_id": 1821,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 1821,
+              "title": "foreign foods",
+              "created_at": "2014-02-11T22:56:17.508Z",
+              "updated_at": "2014-02-11T22:56:17.508Z",
+              "clues_count": 10
+          }
+      },
+      {
+          "id": 26625,
+          "answer": "Being thin",
+          "question": "Like Kate Moss today, beautiful 1960s supermodel Twiggy was best known for this physical quality",
+          "value": 200,
+          "airdate": "1997-10-16T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:45.052Z",
+          "updated_at": "2014-02-11T23:01:45.052Z",
+          "category_id": 2937,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2937,
+              "title": "beauty",
+              "created_at": "2014-02-11T23:01:44.825Z",
+              "updated_at": "2014-02-11T23:01:44.825Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26626,
+          "answer": "Humidity",
+          "question": "For small bats to hibernate, this weather condition has to be above 90% or their wings will dry out",
+          "value": 200,
+          "airdate": "1997-10-16T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:45.068Z",
+          "updated_at": "2014-02-11T23:01:45.068Z",
+          "category_id": 2938,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2938,
+              "title": "the beasts",
+              "created_at": "2014-02-11T23:01:44.837Z",
+              "updated_at": "2014-02-11T23:01:44.837Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26627,
+          "answer": "Four Corners",
+          "question": "This monument is at the site where Colorado, Utah, Arizona & New Mexico meet",
+          "value": 300,
+          "airdate": "1997-10-16T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:45.083Z",
+          "updated_at": "2014-02-11T23:01:45.083Z",
+          "category_id": 509,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 509,
+              "title": "u.s.a.",
+              "created_at": "2014-02-11T22:48:59.120Z",
+              "updated_at": "2014-02-11T22:48:59.120Z",
+              "clues_count": 85
+          }
+      },
+      {
+          "id": 26628,
+          "answer": "Bruce Lee",
+          "question": "The TV series \"Kung Fu\" was the idea of this martial artist, subject of the biopic \"Dragon\"",
+          "value": 300,
+          "airdate": "1997-10-16T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:45.100Z",
+          "updated_at": "2014-02-11T23:01:45.100Z",
+          "category_id": 2936,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2936,
+              "title": "martial artists",
+              "created_at": "2014-02-11T23:01:44.806Z",
+              "updated_at": "2014-02-11T23:01:44.806Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26629,
+          "answer": "Paella",
+          "question": "This Spanish dish of saffron-flavored rice & shellfish takes its name from the pan it's cooked in",
+          "value": 300,
+          "airdate": "1997-10-16T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:45.116Z",
+          "updated_at": "2014-02-11T23:01:45.116Z",
+          "category_id": 1821,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 1821,
+              "title": "foreign foods",
+              "created_at": "2014-02-11T22:56:17.508Z",
+              "updated_at": "2014-02-11T22:56:17.508Z",
+              "clues_count": 10
+          }
+      },
+      {
+          "id": 26631,
+          "answer": "Lasers",
+          "question": "These devices whiten teeth, remove fat & wrinkles, reshape chins & play CDs",
+          "value": 300,
+          "airdate": "1997-10-16T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:45.148Z",
+          "updated_at": "2014-02-11T23:01:45.148Z",
+          "category_id": 2937,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2937,
+              "title": "beauty",
+              "created_at": "2014-02-11T23:01:44.825Z",
+              "updated_at": "2014-02-11T23:01:44.825Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26776,
+          "answer": "a sparrow",
+          "question": "",
+          "value": null,
+          "airdate": "1997-10-09T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:49.905Z",
+          "updated_at": "2016-10-31T15:22:28.930Z",
+          "category_id": 2957,
+          "game_id": null,
+          "invalid_count": 1,
+          "category": {
+              "id": 2957,
+              "title": "\"oop\"s!",
+              "created_at": "2014-02-11T23:01:49.706Z",
+              "updated_at": "2014-02-11T23:01:49.706Z",
+              "clues_count": 10
+          }
+      },
+      {
+          "id": 154267,
+          "answer": "<i>Girl Meets World</i>",
+          "question": "Corey & Topanga from a 1990s sitcom have a daughter in this 2014 show from Disney",
+          "value": 600,
+          "airdate": "2014-11-03T12:00:00.000Z",
+          "created_at": "2015-01-22T02:41:22.895Z",
+          "updated_at": "2017-03-31T20:33:10.466Z",
+          "category_id": 18018,
+          "game_id": 4716,
+          "invalid_count": 1,
+          "category": {
+              "id": 18018,
+              "title": "what a wonderful \"world\"",
+              "created_at": "2015-01-18T18:17:36.231Z",
+              "updated_at": "2015-01-18T18:17:36.231Z",
+              "clues_count": 11
+          }
+      },
+      {
+          "id": 26632,
+          "answer": "Sloth",
+          "question": "The 2-toed type of this edentate averages 21-29 inches in length & has no tail",
+          "value": 300,
+          "airdate": "1997-10-16T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:45.164Z",
+          "updated_at": "2014-02-11T23:01:45.164Z",
+          "category_id": 2938,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2938,
+              "title": "the beasts",
+              "created_at": "2014-02-11T23:01:44.837Z",
+              "updated_at": "2014-02-11T23:01:44.837Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26633,
+          "answer": "Maine",
+          "question": "\"Rusticators\" are city folk with a summer address in this Pine Tree State",
+          "value": 400,
+          "airdate": "1997-10-16T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:45.181Z",
+          "updated_at": "2014-02-11T23:01:45.181Z",
+          "category_id": 509,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 509,
+              "title": "u.s.a.",
+              "created_at": "2014-02-11T22:48:59.120Z",
+              "updated_at": "2014-02-11T22:48:59.120Z",
+              "clues_count": 85
+          }
+      },
+      {
+          "id": 26634,
+          "answer": "Jackie Chan",
+          "question": "He's also known as Chen Gang Shen & Chan Kwong Sang",
+          "value": 400,
+          "airdate": "1997-10-16T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:45.198Z",
+          "updated_at": "2014-02-11T23:01:45.198Z",
+          "category_id": 2936,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2936,
+              "title": "martial artists",
+              "created_at": "2014-02-11T23:01:44.806Z",
+              "updated_at": "2014-02-11T23:01:44.806Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26635,
+          "answer": "phyllo",
+          "question": "Tyropitta is a Greek pastry made of feta cheese stuffed into this flaky dough",
+          "value": 400,
+          "airdate": "1997-10-16T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:45.214Z",
+          "updated_at": "2014-02-11T23:01:45.214Z",
+          "category_id": 1821,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 1821,
+              "title": "foreign foods",
+              "created_at": "2014-02-11T22:56:17.508Z",
+              "updated_at": "2014-02-11T22:56:17.508Z",
+              "clues_count": 10
+          }
+      },
+      {
+          "id": 26636,
+          "answer": "18",
+          "question": "Two 9-volt batteries in a series circuit produce this many volts of electromotive force",
+          "value": 400,
+          "airdate": "1997-10-16T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:45.269Z",
+          "updated_at": "2014-02-11T23:01:45.269Z",
+          "category_id": 25,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 25,
+              "title": "science",
+              "created_at": "2014-02-11T22:47:21.788Z",
+              "updated_at": "2014-02-11T22:47:21.788Z",
+              "clues_count": 250
+          }
+      },
+      {
+          "id": 26637,
+          "answer": "Collagen",
+          "question": "This substance injected to fill out lips is purified connective tissue from cows",
+          "value": 400,
+          "airdate": "1997-10-16T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:45.286Z",
+          "updated_at": "2014-02-11T23:01:45.286Z",
+          "category_id": 2937,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2937,
+              "title": "beauty",
+              "created_at": "2014-02-11T23:01:44.825Z",
+              "updated_at": "2014-02-11T23:01:44.825Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26638,
+          "answer": "Lungs",
+          "question": "Principal organs of respiration of the animal seen here: [video clue: dolphin]",
+          "value": null,
+          "airdate": "1997-10-16T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:45.306Z",
+          "updated_at": "2014-02-11T23:01:45.306Z",
+          "category_id": 2938,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2938,
+              "title": "the beasts",
+              "created_at": "2014-02-11T23:01:44.837Z",
+              "updated_at": "2014-02-11T23:01:44.837Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26639,
+          "answer": "Wisconsin",
+          "question": "The Tatertwister & Chipshot are products from Presto, headquartered in Eau Claire in this state",
+          "value": 500,
+          "airdate": "1997-10-16T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:45.324Z",
+          "updated_at": "2014-02-11T23:01:45.324Z",
+          "category_id": 509,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 509,
+              "title": "u.s.a.",
+              "created_at": "2014-02-11T22:48:59.120Z",
+              "updated_at": "2014-02-11T22:48:59.120Z",
+              "clues_count": 85
+          }
+      },
+      {
+          "id": 26640,
+          "answer": "<i>The Karate Kid</i>",
+          "question": "\"Rocky\" director John G. Avildsen directed this 1984 Ralph Macchio film & 2 of its sequels",
+          "value": 500,
+          "airdate": "1997-10-16T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:45.340Z",
+          "updated_at": "2014-02-11T23:01:45.340Z",
+          "category_id": 2936,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2936,
+              "title": "martial artists",
+              "created_at": "2014-02-11T23:01:44.806Z",
+              "updated_at": "2014-02-11T23:01:44.806Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26641,
+          "answer": "<i>The Karate Kid</i>",
+          "question": "",
+          "value": null,
+          "airdate": "1997-10-16T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:45.356Z",
+          "updated_at": "2014-02-11T23:01:45.356Z",
+          "category_id": 1821,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 1821,
+              "title": "foreign foods",
+              "created_at": "2014-02-11T22:56:17.508Z",
+              "updated_at": "2014-02-11T22:56:17.508Z",
+              "clues_count": 10
+          }
+      },
+      {
+          "id": 26642,
+          "answer": "Inclined plane",
+          "question": "The screw & the wedge are adaptations of this type of simple machine",
+          "value": 500,
+          "airdate": "1997-10-16T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:45.372Z",
+          "updated_at": "2014-02-11T23:01:45.372Z",
+          "category_id": 25,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 25,
+              "title": "science",
+              "created_at": "2014-02-11T22:47:21.788Z",
+              "updated_at": "2014-02-11T22:47:21.788Z",
+              "clues_count": 250
+          }
+      },
+      {
+          "id": 26643,
+          "answer": "Sun Protection Factor",
+          "question": "Advertised in face creams as well as beach products, SPF stands for this",
+          "value": 500,
+          "airdate": "1997-10-16T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:45.389Z",
+          "updated_at": "2014-02-11T23:01:45.389Z",
+          "category_id": 2937,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2937,
+              "title": "beauty",
+              "created_at": "2014-02-11T23:01:44.825Z",
+              "updated_at": "2014-02-11T23:01:44.825Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26644,
+          "answer": "Marsupium",
+          "question": "It's the scientific name for a mother kangaroo's pouch",
+          "value": 500,
+          "airdate": "1997-10-16T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:45.407Z",
+          "updated_at": "2014-02-11T23:01:45.407Z",
+          "category_id": 2938,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2938,
+              "title": "the beasts",
+              "created_at": "2014-02-11T23:01:44.837Z",
+              "updated_at": "2014-02-11T23:01:44.837Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26645,
+          "answer": "Bill Clinton",
+          "question": "August 19, 1946 in Hope, Arkansas",
+          "value": 100,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:45.899Z",
+          "updated_at": "2014-02-11T23:01:45.899Z",
+          "category_id": 2939,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2939,
+              "title": "presidential birthplaces",
+              "created_at": "2014-02-11T23:01:45.818Z",
+              "updated_at": "2014-02-11T23:01:45.818Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26646,
+          "answer": "The Blues Brothers",
+          "question": "This duo dreamed up by John Belushi & Dan Aykroyd began as a pre-show warmup act for \"SNL\"",
+          "value": 100,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:45.915Z",
+          "updated_at": "2014-02-11T23:01:45.915Z",
+          "category_id": 2940,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2940,
+              "title": "the \"blues\"",
+              "created_at": "2014-02-11T23:01:45.832Z",
+              "updated_at": "2014-02-11T23:01:45.832Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26647,
+          "answer": "Jerry Seinfeld",
+          "question": "He made the dean's list at Queens College -- what would his TV neighbor Kramer think of that?",
+          "value": 100,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:45.932Z",
+          "updated_at": "2014-02-11T23:01:45.932Z",
+          "category_id": 1711,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 1711,
+              "title": "when they were in college",
+              "created_at": "2014-02-11T22:55:43.930Z",
+              "updated_at": "2014-02-11T22:55:43.930Z",
+              "clues_count": 25
+          }
+      },
+      {
+          "id": 26648,
+          "answer": "A",
+          "question": "The carotene in carrots supplies you with this vitamin",
+          "value": 100,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:45.989Z",
+          "updated_at": "2014-02-11T23:01:45.989Z",
+          "category_id": 2941,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2941,
+              "title": "carrots",
+              "created_at": "2014-02-11T23:01:45.855Z",
+              "updated_at": "2014-02-11T23:01:45.855Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26649,
+          "answer": "Yen",
+          "question": "Scrape together 100 sen & you can trade them in for one of these in Japan",
+          "value": 100,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.007Z",
+          "updated_at": "2014-02-11T23:01:46.007Z",
+          "category_id": 2942,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2942,
+              "title": "100 _____ make a....",
+              "created_at": "2014-02-11T23:01:45.867Z",
+              "updated_at": "2014-02-11T23:01:45.867Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26650,
+          "answer": "Tweety Bird",
+          "question": "When talking about Sylvester, this character calls him a \"Puddy Tat\"",
+          "value": 100,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.023Z",
+          "updated_at": "2014-02-11T23:01:46.023Z",
+          "category_id": 2943,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2943,
+              "title": "noted pussycats",
+              "created_at": "2014-02-11T23:01:45.878Z",
+              "updated_at": "2014-02-11T23:01:45.878Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26651,
+          "answer": "Richard Nixon",
+          "question": "January 9, 1913 in Yorba Linda, California",
+          "value": 200,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.040Z",
+          "updated_at": "2014-02-11T23:01:46.040Z",
+          "category_id": 2939,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2939,
+              "title": "presidential birthplaces",
+              "created_at": "2014-02-11T23:01:45.818Z",
+              "updated_at": "2014-02-11T23:01:45.818Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26652,
+          "answer": "House of Blues",
+          "question": "In 1992 Hard Rock Cafe founder Isaac Tigrett jazzed things up with the opening of this music club",
+          "value": 200,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.056Z",
+          "updated_at": "2014-02-11T23:01:46.056Z",
+          "category_id": 2940,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2940,
+              "title": "the \"blues\"",
+              "created_at": "2014-02-11T23:01:45.832Z",
+              "updated_at": "2014-02-11T23:01:45.832Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26653,
+          "answer": "Mike Nichols",
+          "question": "The first time he saw his partner Elaine May, he was in a college play & she was glaring at him",
+          "value": 200,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.072Z",
+          "updated_at": "2014-02-11T23:01:46.072Z",
+          "category_id": 1711,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 1711,
+              "title": "when they were in college",
+              "created_at": "2014-02-11T22:55:43.930Z",
+              "updated_at": "2014-02-11T22:55:43.930Z",
+              "clues_count": 25
+          }
+      },
+      {
+          "id": 26654,
+          "answer": "Coffee",
+          "question": "In some parts of the world, carrots are roasted, ground & used as a substitute for this, like chicory",
+          "value": 200,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.089Z",
+          "updated_at": "2014-02-11T23:01:46.089Z",
+          "category_id": 2941,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2941,
+              "title": "carrots",
+              "created_at": "2014-02-11T23:01:45.855Z",
+              "updated_at": "2014-02-11T23:01:45.855Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26655,
+          "answer": "Pence",
+          "question": "The United Kingdom's pound sterling breaks down into 100 of these",
+          "value": 200,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.107Z",
+          "updated_at": "2014-02-11T23:01:46.107Z",
+          "category_id": 2942,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2942,
+              "title": "100 _____ make a....",
+              "created_at": "2014-02-11T23:01:45.867Z",
+              "updated_at": "2014-02-11T23:01:45.867Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26656,
+          "answer": "Barbra Streisand",
+          "question": "In the 1970 hit comedy \"The Owl and the Pussycat\", she was the title feline to George Segal's owl",
+          "value": 200,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.126Z",
+          "updated_at": "2014-02-11T23:01:46.126Z",
+          "category_id": 2943,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2943,
+              "title": "noted pussycats",
+              "created_at": "2014-02-11T23:01:45.878Z",
+              "updated_at": "2014-02-11T23:01:45.878Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26657,
+          "answer": "John F. Kennedy",
+          "question": "May 29, 1917 in Brookline, Massachusetts",
+          "value": 300,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.142Z",
+          "updated_at": "2014-02-11T23:01:46.142Z",
+          "category_id": 2939,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2939,
+              "title": "presidential birthplaces",
+              "created_at": "2014-02-11T23:01:45.818Z",
+              "updated_at": "2014-02-11T23:01:45.818Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26658,
+          "answer": "<i>I Guess That\\'s Why They Call it the Blues</i>",
+          "question": "This 1983 Elton John hit featured Stevie Wonder on harmonica",
+          "value": 300,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.158Z",
+          "updated_at": "2014-02-11T23:01:46.158Z",
+          "category_id": 2940,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2940,
+              "title": "the \"blues\"",
+              "created_at": "2014-02-11T23:01:45.832Z",
+              "updated_at": "2014-02-11T23:01:45.832Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26659,
+          "answer": "Sally Ride",
+          "question": "This astronaut dropped out of Swarthmore to pursue a tennis career but later earned her Ph.D. at Stanford",
+          "value": 300,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.176Z",
+          "updated_at": "2014-02-11T23:01:46.176Z",
+          "category_id": 1711,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 1711,
+              "title": "when they were in college",
+              "created_at": "2014-02-11T22:55:43.930Z",
+              "updated_at": "2014-02-11T22:55:43.930Z",
+              "clues_count": 25
+          }
+      },
+      {
+          "id": 26660,
+          "answer": "V8",
+          "question": "Carrots are one of the octet of vegetables in this Campbell's drink introduced nationwide in 1948",
+          "value": 300,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.192Z",
+          "updated_at": "2014-02-11T23:01:46.192Z",
+          "category_id": 2941,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2941,
+              "title": "carrots",
+              "created_at": "2014-02-11T23:01:45.855Z",
+              "updated_at": "2014-02-11T23:01:45.855Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26661,
+          "answer": "Rupee",
+          "question": "100 paisas make up one of these in India",
+          "value": 300,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.210Z",
+          "updated_at": "2014-02-11T23:01:46.210Z",
+          "category_id": 2942,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2942,
+              "title": "100 _____ make a....",
+              "created_at": "2014-02-11T23:01:45.867Z",
+              "updated_at": "2014-02-11T23:01:45.867Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26662,
+          "answer": "Burt Bacharach",
+          "question": "Tom Jones' 1965 hit single \"What's New Pussycat\" was written by Hal David & this partner",
+          "value": 300,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.227Z",
+          "updated_at": "2014-02-11T23:01:46.227Z",
+          "category_id": 2943,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2943,
+              "title": "noted pussycats",
+              "created_at": "2014-02-11T23:01:45.878Z",
+              "updated_at": "2014-02-11T23:01:45.878Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26663,
+          "answer": "Lyndon Johnson",
+          "question": "August 27, 1908 near Stonewall, Texas",
+          "value": 400,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.243Z",
+          "updated_at": "2014-02-11T23:01:46.243Z",
+          "category_id": 2939,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2939,
+              "title": "presidential birthplaces",
+              "created_at": "2014-02-11T23:01:45.818Z",
+              "updated_at": "2014-02-11T23:01:45.818Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26664,
+          "answer": "The Moody Blues (<i>Gemini Dreams</i>)",
+          "question": "Group heard here in a hit from the '80s: [audio clue]",
+          "value": null,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.260Z",
+          "updated_at": "2014-02-11T23:01:46.260Z",
+          "category_id": 2940,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2940,
+              "title": "the \"blues\"",
+              "created_at": "2014-02-11T23:01:45.832Z",
+              "updated_at": "2014-02-11T23:01:45.832Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26665,
+          "answer": "NYU (New York University)",
+          "question": "Martin Scorsese earned a B.S. & an M.A. from this Manhattan university's film school, & also taught there",
+          "value": 400,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.277Z",
+          "updated_at": "2014-02-11T23:01:46.277Z",
+          "category_id": 1711,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 1711,
+              "title": "when they were in college",
+              "created_at": "2014-02-11T22:55:43.930Z",
+              "updated_at": "2014-02-11T22:55:43.930Z",
+              "clues_count": 25
+          }
+      },
+      {
+          "id": 26666,
+          "answer": "California",
+          "question": "It's the top carrot-producing state",
+          "value": 400,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.295Z",
+          "updated_at": "2014-02-11T23:01:46.295Z",
+          "category_id": 2941,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2941,
+              "title": "carrots",
+              "created_at": "2014-02-11T23:01:45.855Z",
+              "updated_at": "2014-02-11T23:01:45.855Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26667,
+          "answer": "Centimes",
+          "question": "100 of these make up a French franc",
+          "value": 400,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.312Z",
+          "updated_at": "2014-02-11T23:01:46.312Z",
+          "category_id": 2942,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2942,
+              "title": "100 _____ make a....",
+              "created_at": "2014-02-11T23:01:45.867Z",
+              "updated_at": "2014-02-11T23:01:45.867Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26668,
+          "answer": "Queen Elizabeth",
+          "question": "Some Mother Goose scholars believe that this was the real queen visited by \"Pussycat, Pussycat\"",
+          "value": 400,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.328Z",
+          "updated_at": "2014-02-11T23:01:46.328Z",
+          "category_id": 2943,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2943,
+              "title": "noted pussycats",
+              "created_at": "2014-02-11T23:01:45.878Z",
+              "updated_at": "2014-02-11T23:01:45.878Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26669,
+          "answer": "Theodore Roosevelt",
+          "question": "October 27, 1858 in New York City",
+          "value": 500,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.345Z",
+          "updated_at": "2014-02-11T23:01:46.345Z",
+          "category_id": 2939,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2939,
+              "title": "presidential birthplaces",
+              "created_at": "2014-02-11T23:01:45.818Z",
+              "updated_at": "2014-02-11T23:01:45.818Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26670,
+          "answer": "<i>Mo\\' Better Blues</i>",
+          "question": "The soundtrack to this Spike Lee film includes the selections \"Say Hey\" & \"Knocked Out the Box\"",
+          "value": 500,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.362Z",
+          "updated_at": "2014-02-11T23:01:46.362Z",
+          "category_id": 2940,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2940,
+              "title": "the \"blues\"",
+              "created_at": "2014-02-11T23:01:45.832Z",
+              "updated_at": "2014-02-11T23:01:45.832Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26671,
+          "answer": "Elizabeth Dole",
+          "question": "She was elected Duke's student body president years before her husband lost the '96 presidential election",
+          "value": 500,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.378Z",
+          "updated_at": "2014-02-11T23:01:46.378Z",
+          "category_id": 1711,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 1711,
+              "title": "when they were in college",
+              "created_at": "2014-02-11T22:55:43.930Z",
+              "updated_at": "2014-02-11T22:55:43.930Z",
+              "clues_count": 25
+          }
+      },
+      {
+          "id": 26672,
+          "answer": "Root crop",
+          "question": "Among veggies, lettuce is a salad crop; broccoli is a cole crop & carrots, this",
+          "value": 500,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.395Z",
+          "updated_at": "2014-02-11T23:01:46.395Z",
+          "category_id": 2941,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2941,
+              "title": "carrots",
+              "created_at": "2014-02-11T23:01:45.855Z",
+              "updated_at": "2014-02-11T23:01:45.855Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26673,
+          "answer": "Pfennigs",
+          "question": "100 of these make a mark in Germany",
+          "value": 500,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.411Z",
+          "updated_at": "2014-02-11T23:01:46.411Z",
+          "category_id": 2942,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2942,
+              "title": "100 _____ make a....",
+              "created_at": "2014-02-11T23:01:45.867Z",
+              "updated_at": "2014-02-11T23:01:45.867Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26674,
+          "answer": "Ann-Margret",
+          "question": "3 years after playing \"A Kitten With A Whip\", she grew up as the title kitty in \"The Tiger and the Pussycat\"",
+          "value": 500,
+          "airdate": "1997-10-15T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.427Z",
+          "updated_at": "2014-02-11T23:01:46.427Z",
+          "category_id": 2943,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2943,
+              "title": "noted pussycats",
+              "created_at": "2014-02-11T23:01:45.878Z",
+              "updated_at": "2014-02-11T23:01:45.878Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26675,
+          "answer": "Budapest",
+          "question": "Linked by bridges, this Hungarian capital was once 3 distinct & separate cities",
+          "value": 100,
+          "airdate": "1997-10-14T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.907Z",
+          "updated_at": "2014-02-11T23:01:46.907Z",
+          "category_id": 455,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 455,
+              "title": "world cities",
+              "created_at": "2014-02-11T22:48:46.649Z",
+              "updated_at": "2014-02-11T22:48:46.649Z",
+              "clues_count": 80
+          }
+      },
+      {
+          "id": 26676,
+          "answer": "Julie Andrews (for <i>Victor/Victoria</i>)",
+          "question": "She stunned Broadway by turning down her 1996 Tony nomination for Best Actress in a Musical",
+          "value": 100,
+          "airdate": "1997-10-14T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.924Z",
+          "updated_at": "2014-02-11T23:01:46.924Z",
+          "category_id": 1259,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 1259,
+              "title": "musical theatre",
+              "created_at": "2014-02-11T22:52:52.883Z",
+              "updated_at": "2014-02-11T22:52:52.883Z",
+              "clues_count": 35
+          }
+      },
+      {
+          "id": 26677,
+          "answer": "Gray",
+          "question": "Genetically, it's the most dominant coat color, so it's what the old mare had the best chance to be",
+          "value": 100,
+          "airdate": "1997-10-14T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.940Z",
+          "updated_at": "2014-02-11T23:01:46.940Z",
+          "category_id": 1545,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 1545,
+              "title": "horse sense",
+              "created_at": "2014-02-11T22:54:38.708Z",
+              "updated_at": "2014-02-11T22:54:38.708Z",
+              "clues_count": 15
+          }
+      },
+      {
+          "id": 26678,
+          "answer": "Tiananmen Square",
+          "question": "1,000 Chinese protested the privileges of high officials in this square, more famous 10 years later",
+          "value": 100,
+          "airdate": "1997-10-14T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.956Z",
+          "updated_at": "2014-02-11T23:01:46.956Z",
+          "category_id": 711,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 711,
+              "title": "1979",
+              "created_at": "2014-02-11T22:49:55.844Z",
+              "updated_at": "2014-02-11T22:49:55.844Z",
+              "clues_count": 10
+          }
+      },
+      {
+          "id": 26679,
+          "answer": "Troy Aikman",
+          "question": "In 1989, his first year as Dallas' QB, the team went 1-15; they later improved",
+          "value": 100,
+          "airdate": "1997-10-14T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:46.974Z",
+          "updated_at": "2014-02-11T23:01:46.974Z",
+          "category_id": 1721,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 1721,
+              "title": "athletes",
+              "created_at": "2014-02-11T22:55:46.972Z",
+              "updated_at": "2014-02-11T22:55:46.972Z",
+              "clues_count": 40
+          }
+      },
+      {
+          "id": 26681,
+          "answer": "Alexandria",
+          "question": "This Egyptian port city is named for the Macedonian king who founded it in 332 B.C.",
+          "value": 200,
+          "airdate": "1997-10-14T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:47.007Z",
+          "updated_at": "2014-02-11T23:01:47.007Z",
+          "category_id": 455,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 455,
+              "title": "world cities",
+              "created_at": "2014-02-11T22:48:46.649Z",
+              "updated_at": "2014-02-11T22:48:46.649Z",
+              "clues_count": 80
+          }
+      },
+      {
+          "id": 26682,
+          "answer": "<i>Shogun</i>",
+          "question": "Of \"Shogun\", \"King Rat\" or \"Tai-Pan\", the James Clavell novel that became a musical in 1990",
+          "value": 200,
+          "airdate": "1997-10-14T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:47.023Z",
+          "updated_at": "2014-02-11T23:01:47.023Z",
+          "category_id": 1259,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 1259,
+              "title": "musical theatre",
+              "created_at": "2014-02-11T22:52:52.883Z",
+              "updated_at": "2014-02-11T22:52:52.883Z",
+              "clues_count": 35
+          }
+      },
+      {
+          "id": 26683,
+          "answer": "Shetland pony",
+          "question": "The smallest British breed, this pony evolved on an island off the north coast of Scotland",
+          "value": 200,
+          "airdate": "1997-10-14T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:47.039Z",
+          "updated_at": "2014-02-11T23:01:47.039Z",
+          "category_id": 1545,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 1545,
+              "title": "horse sense",
+              "created_at": "2014-02-11T22:54:38.708Z",
+              "updated_at": "2014-02-11T22:54:38.708Z",
+              "clues_count": 15
+          }
+      },
+      {
+          "id": 26684,
+          "answer": "Dieting",
+          "question": "Herman Tarnower & Nathan Pritikin rode the bestseller lists with books on doing this",
+          "value": 200,
+          "airdate": "1997-10-14T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:47.080Z",
+          "updated_at": "2014-02-11T23:01:47.080Z",
+          "category_id": 711,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 711,
+              "title": "1979",
+              "created_at": "2014-02-11T22:49:55.844Z",
+              "updated_at": "2014-02-11T22:49:55.844Z",
+              "clues_count": 10
+          }
+      },
+      {
+          "id": 26685,
+          "answer": "Wayne Gretzky",
+          "question": "At age 11 in 1972, he scored 378 goals for the Brantford (Ontario) Nadrofsky Steelers",
+          "value": 200,
+          "airdate": "1997-10-14T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:47.096Z",
+          "updated_at": "2014-02-11T23:01:47.096Z",
+          "category_id": 1721,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 1721,
+              "title": "athletes",
+              "created_at": "2014-02-11T22:55:46.972Z",
+              "updated_at": "2014-02-11T22:55:46.972Z",
+              "clues_count": 40
+          }
+      },
+      {
+          "id": 26686,
+          "answer": "Bell-bottoms",
+          "question": "Sailors wore these pants long before they became fashionable in the 1960s",
+          "value": 200,
+          "airdate": "1997-10-14T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:47.112Z",
+          "updated_at": "2014-02-11T23:01:47.112Z",
+          "category_id": 2944,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2944,
+              "title": "\"bell\"s & \"whistle\"s",
+              "created_at": "2014-02-11T23:01:46.884Z",
+              "updated_at": "2014-02-11T23:01:46.884Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26687,
+          "answer": "Medina",
+          "question": "This second-holiest city of Islam houses the tomb of Muhammad",
+          "value": 300,
+          "airdate": "1997-10-14T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:47.128Z",
+          "updated_at": "2014-02-11T23:01:47.128Z",
+          "category_id": 455,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 455,
+              "title": "world cities",
+              "created_at": "2014-02-11T22:48:46.649Z",
+              "updated_at": "2014-02-11T22:48:46.649Z",
+              "clues_count": 80
+          }
+      },
+      {
+          "id": 26688,
+          "answer": "Lou Diamond Phillips",
+          "question": "In 1996 this star of \"La Bamba\" & \"Young Guns\" began reigning on Broadway in \"The King And I\"",
+          "value": 300,
+          "airdate": "1997-10-14T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:47.144Z",
+          "updated_at": "2014-02-11T23:01:47.144Z",
+          "category_id": 1259,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 1259,
+              "title": "musical theatre",
+              "created_at": "2014-02-11T22:52:52.883Z",
+              "updated_at": "2014-02-11T22:52:52.883Z",
+              "clues_count": 35
+          }
+      },
+      {
+          "id": 26689,
+          "answer": "Harrods",
+          "question": "This British department store's green delivery van is drawn by a team of Friesians",
+          "value": 300,
+          "airdate": "1997-10-14T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:47.160Z",
+          "updated_at": "2014-02-11T23:01:47.160Z",
+          "category_id": 1545,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 1545,
+              "title": "horse sense",
+              "created_at": "2014-02-11T22:54:38.708Z",
+              "updated_at": "2014-02-11T22:54:38.708Z",
+              "clues_count": 15
+          }
+      },
+      {
+          "id": 26690,
+          "answer": "Skylab",
+          "question": "Noted falls in 1979 included the Shah of Iran's after 37 years & this space station's after 34,980 orbits",
+          "value": 300,
+          "airdate": "1997-10-14T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:47.175Z",
+          "updated_at": "2014-02-11T23:01:47.175Z",
+          "category_id": 711,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 711,
+              "title": "1979",
+              "created_at": "2014-02-11T22:49:55.844Z",
+              "updated_at": "2014-02-11T22:49:55.844Z",
+              "clues_count": 10
+          }
+      },
+      {
+          "id": 26691,
+          "answer": "Ted Williams",
+          "question": "The last Major League Baseball player to hit .400 in a season, he was John Glenn's wingman in the Korean War",
+          "value": 300,
+          "airdate": "1997-10-14T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:47.191Z",
+          "updated_at": "2014-02-11T23:01:47.191Z",
+          "category_id": 1721,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 1721,
+              "title": "athletes",
+              "created_at": "2014-02-11T22:55:46.972Z",
+              "updated_at": "2014-02-11T22:55:46.972Z",
+              "clues_count": 40
+          }
+      },
+      {
+          "id": 26692,
+          "answer": "Barbells",
+          "question": "They supply the weight in Olympic weightlifting",
+          "value": 300,
+          "airdate": "1997-10-14T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:47.207Z",
+          "updated_at": "2014-02-11T23:01:47.207Z",
+          "category_id": 2944,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2944,
+              "title": "\"bell\"s & \"whistle\"s",
+              "created_at": "2014-02-11T23:01:46.884Z",
+              "updated_at": "2014-02-11T23:01:46.884Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26693,
+          "answer": "Palermo",
+          "question": "Known as Panormus in ancient times, it's the largest city of Sicily",
+          "value": 400,
+          "airdate": "1997-10-14T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:47.223Z",
+          "updated_at": "2014-02-11T23:01:47.223Z",
+          "category_id": 455,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 455,
+              "title": "world cities",
+              "created_at": "2014-02-11T22:48:46.649Z",
+              "updated_at": "2014-02-11T22:48:46.649Z",
+              "clues_count": 80
+          }
+      },
+      {
+          "id": 26694,
+          "answer": "<i>Little Shop Of Horrors</i>",
+          "question": "Much of this musical about a man-eating plant is set at Mr. Mushnik's flower shop",
+          "value": 400,
+          "airdate": "1997-10-14T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:47.239Z",
+          "updated_at": "2014-02-11T23:01:47.239Z",
+          "category_id": 1259,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 1259,
+              "title": "musical theatre",
+              "created_at": "2014-02-11T22:52:52.883Z",
+              "updated_at": "2014-02-11T22:52:52.883Z",
+              "clues_count": 35
+          }
+      },
+      {
+          "id": 26695,
+          "answer": "Reindeer",
+          "question": "In 5000 B.C., before the horse was domesticated, northern Europeans used these to pull sleds",
+          "value": 400,
+          "airdate": "1997-10-14T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:47.256Z",
+          "updated_at": "2014-02-11T23:01:47.256Z",
+          "category_id": 1545,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 1545,
+              "title": "horse sense",
+              "created_at": "2014-02-11T22:54:38.708Z",
+              "updated_at": "2014-02-11T22:54:38.708Z",
+              "clues_count": 15
+          }
+      },
+      {
+          "id": 26696,
+          "answer": "Afghanistan",
+          "question": "In February Adolph Dubs, U.S. ambassador to this country was killed, in December, the Soviets invaded",
+          "value": 400,
+          "airdate": "1997-10-14T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:47.272Z",
+          "updated_at": "2014-02-11T23:01:47.272Z",
+          "category_id": 711,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 711,
+              "title": "1979",
+              "created_at": "2014-02-11T22:49:55.844Z",
+              "updated_at": "2014-02-11T22:49:55.844Z",
+              "clues_count": 10
+          }
+      },
+      {
+          "id": 26697,
+          "answer": "Algeria",
+          "question": "World champion runner Hassiba Boulmerka of this north African country has been denounced for showing her legs",
+          "value": 400,
+          "airdate": "1997-10-14T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:47.287Z",
+          "updated_at": "2014-02-11T23:01:47.287Z",
+          "category_id": 1721,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 1721,
+              "title": "athletes",
+              "created_at": "2014-02-11T22:55:46.972Z",
+              "updated_at": "2014-02-11T22:55:46.972Z",
+              "clues_count": 40
+          }
+      },
+      {
+          "id": 26698,
+          "answer": "Whistleblowers",
+          "question": "They're employees who go public with stories of their employers' wrongdoing",
+          "value": 400,
+          "airdate": "1997-10-14T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:47.303Z",
+          "updated_at": "2014-02-11T23:01:47.303Z",
+          "category_id": 2944,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2944,
+              "title": "\"bell\"s & \"whistle\"s",
+              "created_at": "2014-02-11T23:01:46.884Z",
+              "updated_at": "2014-02-11T23:01:46.884Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26699,
+          "answer": "Sevilla",
+          "question": "An old tobacco factory made famous by \"Carmen\" now houses part of the university of this Spanish city",
+          "value": 500,
+          "airdate": "1997-10-14T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:47.318Z",
+          "updated_at": "2014-02-11T23:01:47.318Z",
+          "category_id": 455,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 455,
+              "title": "world cities",
+              "created_at": "2014-02-11T22:48:46.649Z",
+              "updated_at": "2014-02-11T22:48:46.649Z",
+              "clues_count": 80
+          }
+      },
+      {
+          "id": 26700,
+          "answer": "<i>Fiddler on the Roof</i>",
+          "question": "(Hi, I'm Sharon Lawrence.)  Before appearing on TV I appeared on Broadway in several musical revivals including this one set in Anatevka",
+          "value": null,
+          "airdate": "1997-10-14T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:47.333Z",
+          "updated_at": "2014-02-11T23:01:47.333Z",
+          "category_id": 1259,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 1259,
+              "title": "musical theatre",
+              "created_at": "2014-02-11T22:52:52.883Z",
+              "updated_at": "2014-02-11T22:52:52.883Z",
+              "clues_count": 35
+          }
+      },
+      {
+          "id": 26702,
+          "answer": "Sid Vicious",
+          "question": "No longer a Sex Pistol, he was facing murder charges when he died in February",
+          "value": 500,
+          "airdate": "1997-10-14T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:47.364Z",
+          "updated_at": "2014-02-11T23:01:47.364Z",
+          "category_id": 711,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 711,
+              "title": "1979",
+              "created_at": "2014-02-11T22:49:55.844Z",
+              "updated_at": "2014-02-11T22:49:55.844Z",
+              "clues_count": 10
+          }
+      },
+      {
+          "id": 26703,
+          "answer": "Buster Crabbe & Johnny Weissmuller",
+          "question": "The 2 Olympic swimming champions who played Tarzan on film in the 1930s",
+          "value": 500,
+          "airdate": "1997-10-14T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:47.379Z",
+          "updated_at": "2014-02-11T23:01:47.379Z",
+          "category_id": 1721,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 1721,
+              "title": "athletes",
+              "created_at": "2014-02-11T22:55:46.972Z",
+              "updated_at": "2014-02-11T22:55:46.972Z",
+              "clues_count": 40
+          }
+      },
+      {
+          "id": 26704,
+          "answer": "Belladonna",
+          "question": "Common name for deadly nighshade, a plant that's poisonous in all its parts",
+          "value": 500,
+          "airdate": "1997-10-14T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:47.395Z",
+          "updated_at": "2014-02-11T23:01:47.395Z",
+          "category_id": 2944,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2944,
+              "title": "\"bell\"s & \"whistle\"s",
+              "created_at": "2014-02-11T23:01:46.884Z",
+              "updated_at": "2014-02-11T23:01:46.884Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26705,
+          "answer": "Phoenix",
+          "question": "Rebuilding Precolumbian irrigation canals in 1867 helped \"resurrect\" this future Arizona capital",
+          "value": 100,
+          "airdate": "1997-10-13T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:47.850Z",
+          "updated_at": "2014-02-11T23:01:47.850Z",
+          "category_id": 7,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 7,
+              "title": "u.s. cities",
+              "created_at": "2014-02-11T22:47:19.485Z",
+              "updated_at": "2014-02-11T22:47:19.485Z",
+              "clues_count": 245
+          }
+      },
+      {
+          "id": 26706,
+          "answer": "<i>Independence Day</i>",
+          "question": "Pullman gave a firecracker performance as the president during an alien invasion in this blockbuster film",
+          "value": 100,
+          "airdate": "1997-10-13T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:47.866Z",
+          "updated_at": "2014-02-11T23:01:47.866Z",
+          "category_id": 2945,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2945,
+              "title": "bill pullman films",
+              "created_at": "2014-02-11T23:01:47.794Z",
+              "updated_at": "2014-02-11T23:01:47.794Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26707,
+          "answer": "Wink",
+          "question": "It's a deliberate, meaningful, one-eyed blink",
+          "value": 100,
+          "airdate": "1997-10-13T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:47.881Z",
+          "updated_at": "2014-02-11T23:01:47.881Z",
+          "category_id": 2946,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2946,
+              "title": "think \"ink\"",
+              "created_at": "2014-02-11T23:01:47.806Z",
+              "updated_at": "2014-02-11T23:01:47.806Z",
+              "clues_count": 5
+          }
+      },
+      {
+          "id": 26708,
+          "answer": "Veronica Lake",
+          "question": "'40s film star with the \"Peek-A-Boo\" do",
+          "value": 100,
+          "airdate": "1997-10-13T12:00:00.000Z",
+          "created_at": "2014-02-11T23:01:47.897Z",
+          "updated_at": "2014-02-11T23:01:47.897Z",
+          "category_id": 2947,
+          "game_id": null,
+          "invalid_count": null,
+          "category": {
+              "id": 2947,
+              "title": "veronica",
+              "created_at": "2014-02-11T23:01:47.817Z",
+              "updated_at": "2014-02-11T23:01:47.817Z",
+              "clues_count": 5
+          }
       }
   ]
 }
