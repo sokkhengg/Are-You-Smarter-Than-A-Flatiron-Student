@@ -22,6 +22,7 @@ function App() {
   )
   
   console.log("hi")
+  console.log("Hello from Sean")
 
   return (
    <div>
