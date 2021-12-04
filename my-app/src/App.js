@@ -23,6 +23,8 @@ function App() {
   
   console.log("hi")
   console.log("Hello from Sean")
+  console.log("hi2")
+
 
   return (
    <div>
