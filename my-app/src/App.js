@@ -6,6 +6,7 @@ import 'semantic-ui-css/semantic.min.css'
 import Footer from './Footer';
 
 import Header from "./Header"
+import StartForm from './StartForm';
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
 
   return (
    <div>
-     <Header {...questions}/>
+    <StartForm />
+    <Header {...questions}/>
      {questions.map(q => {
        return (
          <div>

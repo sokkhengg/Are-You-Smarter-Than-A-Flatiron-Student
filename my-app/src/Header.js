@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
     return (
         <div>
-            console.log("hello from header")
+            Quick questions to learn about general knowledge
         </div>
     )
 }
