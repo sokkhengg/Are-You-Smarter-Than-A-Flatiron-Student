@@ -27,7 +27,6 @@ function App() {
      {questions.map(q => {
        return (
          <div>
-           <p>HELLLLLO</p>
            <Test question={q} />
          </div>
        )

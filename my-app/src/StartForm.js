@@ -1,10 +1,16 @@
-import React from 'react'
+import React,{useState} from 'react'
 
 function StartForm() {
+
+    const [starts, setStart] = useState(false)
+
+    function handleStartForm({start}){
+        console.log(setStart, "start")
+    }
     return (
         <div>
             <div className="startForm">
-                <button key={null} onClick={null}>
+                <button key={starts} starts={starts} onClick={handleStartForm}>
                     StartForm
                 </button>
             </div>
@@ -12,6 +18,9 @@ function StartForm() {
                 <button key={null} onClick={null}>
                     Select Difficulty
                 </button>
+                <button>Easy</button>
+                <button>Medium</button>
+                <button>Hard</button>
             </div>
         </div>
         
