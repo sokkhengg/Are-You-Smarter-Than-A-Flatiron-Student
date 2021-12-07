@@ -1,2 +1,3 @@
 # Phase2-project
-HELLO!!!!!!
+
+detail Readme file content in my-app
