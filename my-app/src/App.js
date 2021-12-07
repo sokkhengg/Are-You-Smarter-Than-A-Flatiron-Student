@@ -25,6 +25,7 @@ function App() {
     <Logo />
     <Header />
     <StartForm />
+
      {questions.map(q => {
        return (
          <div>
@@ -32,6 +33,7 @@ function App() {
          </div>
        )
      })}
+     
      <Footer />
    </div>
   );

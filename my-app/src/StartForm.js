@@ -23,6 +23,7 @@ function StartForm() {
                     <option>Medium</option>
                     <option>Hard</option>
                 </select>
+            <hr className="startFormDivider"/>
                
             </div>
         </div>
