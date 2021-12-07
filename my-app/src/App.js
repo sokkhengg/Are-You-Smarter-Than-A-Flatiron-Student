@@ -2,12 +2,11 @@ import './App.css';
 import { useEffect, useState } from 'react';
 import Test from "./Test.js";
 import 'semantic-ui-css/semantic.min.css'
-
 import Footer from './Footer';
-
 import Header from "./Header"
 import StartForm from './StartForm';
 import Logo from './Logo';
+import {BrowserRouter} from "react-router-dom" 
 
 function App() {
   const[questions, setQuestions] = useState([]);
@@ -23,7 +22,9 @@ function App() {
   return (
    <div>
     <Logo />
+    <BrowserRouter>
     <Header />
+    </BrowserRouter>
     <StartForm />
 
      {questions.map(q => {
@@ -33,7 +34,7 @@ function App() {
          </div>
        )
      })}
-     
+
      <Footer />
    </div>
   );

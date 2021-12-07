@@ -15,6 +15,7 @@ function StartForm() {
                     StartForm
                 </button>
             </div>
+            <hr/>
             <div className="selectDifficulty">
                 <i>Select Difficulty</i>
                 <select value={select} onChange={e=> setSelect(e.target.value)}>
