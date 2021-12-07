@@ -12,7 +12,6 @@ export default function AddNewQuestionForm() {
   function handleOnChange(e) {
     const name = e.target.name;
     const value = e.target.value;
-
     setNewQuestion({ ...newQuestion, [name]: value });
   }
 
@@ -29,11 +28,18 @@ export default function AddNewQuestionForm() {
       body: JSON.stringify(newQuestion),
     })
       .then((r) => r.json())
+      .then(() => {
+          setNewQuestion({
+            question: "",
+            answer: "",
+            })
+        })
       .catch((error) => console.error(error));
   }
 
   return (
     <div>
+        <br /><br />
       <Grid columns="equal">
         <Grid.Column></Grid.Column>
 
@@ -42,12 +48,12 @@ export default function AddNewQuestionForm() {
             <Form.Group widths="equal">
               <Form.Field required onChange={(e) => handleOnChange(e)}>
                 <label>Question</label>
-                <input placeholder="Question" name="question" />
+                <input placeholder="Question" name="question" value={newQuestion.question} />
               </Form.Field>
 
               <Form.Field required onChange={(e) => handleOnChange(e)}>
                 <label>Answer</label>
-                <input placeholder="Answer" name="answer" />
+                <input placeholder="Answer" name="answer" value={newQuestion.answer} />
               </Form.Field>
 
               <Button type="submit" onClick={(e) => handleSubmit(e)}>

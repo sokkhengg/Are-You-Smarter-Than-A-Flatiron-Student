@@ -1,14 +1,13 @@
 import './App.css';
 import { useEffect, useState } from 'react';
-import Test from "./Test.js";
-import 'semantic-ui-css/semantic.min.css'
+import 'semantic-ui-css/semantic.min.css';
 
-import Footer from './Footer';
-
-import Header from "./Header"
+import Header from "./Header";
 import StartForm from './StartForm';
+import QuestionContainer from './QuestionContainer.js';
 import AddNewQuestionForm from './AddNewQuestionForm';
-
+import PlayerStats from './PlayerStats';
+import Footer from './Footer';
 
 function App() {
   const[questions, setQuestions] = useState([]);
@@ -20,21 +19,15 @@ function App() {
     .then(question => setQuestions(question))
   }, []
   )
-
+  
   return (
    <div>
     <StartForm />
     <Header {...questions}/>
-     {questions.filter(q => q.id === 38367)
-      .map(q => {
-       return (
-         <div>
-           <Test question={q} />
-         </div>
-       )
-     })}
-     <AddNewQuestionForm />
-     <Footer />
+    <QuestionContainer />
+    <PlayerStats />
+    <AddNewQuestionForm />
+    <Footer />
    </div>
   );
 }
