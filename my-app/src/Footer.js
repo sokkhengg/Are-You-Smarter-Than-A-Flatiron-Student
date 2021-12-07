@@ -1,6 +1,7 @@
 import React from 'react'
 import { Grid } from 'semantic-ui-react'
 
+
 function Footer() {
     return (
         <div>
@@ -15,7 +16,6 @@ function Footer() {
                 <Grid.Column>
                 </Grid.Column>
             </Grid>
-            
         </div>
     )
 }

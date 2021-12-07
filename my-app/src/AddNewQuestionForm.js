@@ -1,13 +1,11 @@
 import React, { useState } from "react";
 import { Form, Button, Grid } from "semantic-ui-react";
 
-export default function AddNewQuestionForm() {
+export default function AddNewQuestionForm({ LOCAL_API }) {
   const [newQuestion, setNewQuestion] = useState({
     question: "",
     answer: "",
   });
-
-  const LOCAL_API = "http://localhost:3000/questions";
 
   function handleOnChange(e) {
     const name = e.target.name;
@@ -32,14 +30,13 @@ export default function AddNewQuestionForm() {
           setNewQuestion({
             question: "",
             answer: "",
-            })
-        })
+          })
+      })
       .catch((error) => console.error(error));
   }
 
   return (
     <div>
-        <br /><br />
       <Grid columns="equal">
         <Grid.Column></Grid.Column>
 
@@ -53,7 +50,7 @@ export default function AddNewQuestionForm() {
 
               <Form.Field required onChange={(e) => handleOnChange(e)}>
                 <label>Answer</label>
-                <input placeholder="Answer" name="answer" value={newQuestion.answer} />
+                <input placeholder="Answer" name="answer" value={newQuestion.answer}/>
               </Form.Field>
 
               <Button type="submit" onClick={(e) => handleSubmit(e)}>

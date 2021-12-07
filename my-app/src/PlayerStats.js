@@ -3,9 +3,6 @@ import { Icon, Statistic } from "semantic-ui-react";
 
 export default function PlayerStats() {
   return (
-      <>
-      <br />
-      <br />
     <Statistic.Group widths="three">
       <Statistic>
         <Statistic.Value>
@@ -29,6 +26,5 @@ export default function PlayerStats() {
         <Statistic.Label>Wrong/Skipped</Statistic.Label>
       </Statistic>
     </Statistic.Group>
-    </>
   );
 }
