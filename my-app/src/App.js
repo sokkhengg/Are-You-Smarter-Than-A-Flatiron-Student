@@ -10,6 +10,7 @@ import StartForm from './StartForm';
 import Logo from './Logo';
 
 console.log('add new branch to git')
+console.log('prepare to add this branch to github')
 
 
 function App() {
