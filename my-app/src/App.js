@@ -1,16 +1,16 @@
 import './App.css';
 import { useEffect, useState } from 'react';
-const LOCAL_API = "http://localhost:3000/questions"
+import Test from "./Test.js";
+import 'semantic-ui-css/semantic.min.css'
+
+import Footer from './Footer';
+
+import Header from "./Header"
+
 
 function App() {
   const[questions, setQuestions] = useState([]);
-
-  // useEffect(() => {
-  //   fetch("https://jservice.io/api/random?count=100")
-  //   .then(r => r.json())
-  //   .then(question => setQuestions({...questions, question}))
-  // }
-  // , [])
+  const LOCAL_API = "http://localhost:3000/questions"
 
   useEffect(() => {
     fetch(LOCAL_API)
@@ -18,12 +18,23 @@ function App() {
     .then(question => setQuestions(question))
   }, []
   )
-  
+
   return (
    <div>
-     {(console.log(questions))}
+     <Header {...questions}/>
+     {questions.map(q => {
+       return (
+         <div>
+           <p>HELLLLLO</p>
+           <Test question={q} />
+         </div>
+       )
+     })}
+     <Footer />
    </div>
   );
 }
 
 export default App;
+
+
