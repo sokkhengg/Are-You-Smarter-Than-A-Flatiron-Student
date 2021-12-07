@@ -7,6 +7,7 @@ import Footer from './Footer';
 
 import Header from "./Header"
 import StartForm from './StartForm';
+import Logo from './Logo';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
   return (
    <div>
     <StartForm />
+    <Logo />
     <Header {...questions}/>
      {questions.map(q => {
        return (
