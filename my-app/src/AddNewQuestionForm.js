@@ -8,6 +8,7 @@ export default function AddNewQuestionForm({ LOCAL_API }) {
   });
 
   function handleOnChange(e) {
+    console.log(e)
     const name = e.target.name;
     const value = e.target.value;
     setNewQuestion({ ...newQuestion, [name]: value });
