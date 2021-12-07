@@ -13,4 +13,6 @@ As a user, I want to:
 
 **STRETCH GOALS**:
 * User only has 10 seconds to answer a question, if no answer is clicked the next question is shown.
+*new readme
+*add readme
 
