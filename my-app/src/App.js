@@ -7,6 +7,7 @@ import Footer from './Footer';
 
 import Header from "./Header"
 import StartForm from './StartForm';
+import AddNewQuestionForm from './AddNewQuestionForm';
 
 
 function App() {
@@ -24,13 +25,15 @@ function App() {
    <div>
     <StartForm />
     <Header {...questions}/>
-     {questions.map(q => {
+     {questions.filter(q => q.id === 38367)
+      .map(q => {
        return (
          <div>
            <Test question={q} />
          </div>
        )
      })}
+     <AddNewQuestionForm />
      <Footer />
    </div>
   );
