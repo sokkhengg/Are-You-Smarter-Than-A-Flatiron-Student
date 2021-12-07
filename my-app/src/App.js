@@ -9,12 +9,6 @@ import Header from "./Header"
 import StartForm from './StartForm';
 import Logo from './Logo';
 
-console.log('add new branch to git')
-console.log('prepare to add this branch to github')
-console.log('testing from testing to main')
-
-
-
 function App() {
   const[questions, setQuestions] = useState([]);
   const LOCAL_API = "http://localhost:3000/questions"
@@ -28,9 +22,9 @@ function App() {
 
   return (
    <div>
-    <StartForm />
     <Logo />
-    <Header {...questions}/>
+    <Header />
+    <StartForm />
      {questions.map(q => {
        return (
          <div>

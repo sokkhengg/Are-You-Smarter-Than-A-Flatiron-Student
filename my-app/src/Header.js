@@ -3,7 +3,9 @@ import React from 'react'
 function Header() {
     return (
         <div>
-            Quick questions to learn about general knowledge
+            <h1>
+                Welcome to Quiz App
+            </h1>
         </div>
     )
 }

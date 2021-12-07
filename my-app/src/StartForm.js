@@ -1,9 +1,10 @@
 import React,{useState} from 'react'
 
 function StartForm() {
-
+    
     const [starts, setStart] = useState(false)
-
+    const [select, setSelect] = useState()
+    
     function handleStartForm({start}){
         console.log(setStart, "start")
     }
@@ -15,12 +16,14 @@ function StartForm() {
                 </button>
             </div>
             <div className="selectDifficulty">
-                <button key={null} onClick={null}>
-                    Select Difficulty
-                </button>
-                <button>Easy</button>
-                <button>Medium</button>
-                <button>Hard</button>
+                <i>Select Difficulty</i>
+                <select value={select} onChange={e=> setSelect(e.target.value)}>
+                    <option></option>
+                    <option>Easy</option>
+                    <option>Medium</option>
+                    <option>Hard</option>
+                </select>
+               
             </div>
         </div>
         
