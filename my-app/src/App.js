@@ -1,12 +1,18 @@
-import './App.css';
+import 'semantic-ui-css/semantic.min.css';
 import { useEffect, useState } from 'react';
-import Test from "./Test.js";
-import 'semantic-ui-css/semantic.min.css'
-import Footer from './Footer';
+import {BrowserRouter} from "react-router-dom"; 
+
+
+
 import Header from "./Header"
-import StartForm from './StartForm';
 import Logo from './Logo';
-import {BrowserRouter} from "react-router-dom" 
+import StartForm from './StartForm';
+import Test from "./Test.js";
+import PlayerStats from "./PlayerStats"
+import AddNewQuestionForm from './AddNewQuestionForm.js';
+import Footer from './Footer';
+
+
 
 function App() {
   const[questions, setQuestions] = useState([]);
@@ -27,15 +33,16 @@ function App() {
     </BrowserRouter>
     <StartForm />
 
-     {questions.map(q => {
+     {/* {questions.map(q => {
        return (
          <div>
            <Test question={q} />
          </div>
        )
-     })}
-
-     <Footer />
+     })} */}
+    <PlayerStats />
+    <AddNewQuestionForm LOCAL_API={LOCAL_API} />
+    <Footer />
    </div>
   );
 }

@@ -8,8 +8,6 @@ export default function AddNewQuestionForm({ LOCAL_API }) {
   });
 
   function handleOnChange(e) {
-    console.log(e)
-    console.log(e)
     const name = e.target.name;
     const value = e.target.value;
     setNewQuestion({ ...newQuestion, [name]: value });
@@ -43,7 +41,7 @@ export default function AddNewQuestionForm({ LOCAL_API }) {
         <Grid.Column></Grid.Column>
 
         <Grid.Column textAlign="center">
-          <Form success>
+          <Form>
             <Form.Group widths="equal">
               <Form.Field required onChange={(e) => handleOnChange(e)}>
                 <label>Question</label>
