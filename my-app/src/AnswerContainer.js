@@ -1,16 +1,22 @@
 import React from 'react'
 import { Button, Grid } from "semantic-ui-react";
 
-export default function AnswerContainer({answer, allQuestions, setQuestions}) {
+export default function AnswerContainer({answer, allQuestions, 
+  setQuestions, playerStat, setPlayerStat, question}) {
     
     const randomAnswer1 = Math.floor(Math.random() * 100)
     const rightOrWrong = Math.floor(Math.random() * 4)
 
     function handleButtonClick(e) {
-        if (e.target.innerText === answer) {
-            setTimeout(() => setQuestions([...allQuestions]) , 2000)
+      if (e.target.innerText === answer) {
+
+        setPlayerStat({...playerStat, money: playerStat.money + question, correct: playerStat.correct + 1 })
+        setTimeout(() => setQuestions([...allQuestions]) , 2000)
+      } else {
+        setPlayerStat({...playerStat, wrong: playerStat.wrong + 1, money: playerStat.money - question })
+      }
+
         }
-    }
  
     const myAnswer = rightOrWrong === 1 ? <Grid columns="equal" fluid padded>
         <Grid.Row >
@@ -50,7 +56,7 @@ export default function AnswerContainer({answer, allQuestions, setQuestions}) {
           <Grid columns="3">
             <Grid.Column></Grid.Column>
             <Grid.Column textAlign="center">
-              <Button negative>Skip</Button>
+              <Button negative onClick={(e) => handleButtonClick(e)} >Skip</Button>
             </Grid.Column>
             <Grid.Column></Grid.Column>
           </Grid>

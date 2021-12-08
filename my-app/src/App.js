@@ -1,9 +1,6 @@
 import 'semantic-ui-css/semantic.min.css';
 import { useEffect, useState } from 'react';
-import {BrowserRouter} from "react-router-dom"; 
-
-
-
+// import {BrowserRouter} from "react-router-dom"; 
 import Header from "./Header"
 import Logo from './Logo';
 import StartForm from './StartForm';
@@ -17,6 +14,11 @@ import Footer from './Footer';
 function App() {
   const[questions, setQuestions] = useState([]);
   const LOCAL_API = "http://localhost:3000/questions"
+  const [playerStat, setPlayerStat] = useState({
+    money:0,
+    correct:0,
+    wrong:0,
+  })
 
   useEffect(() => {
     fetch(LOCAL_API)
@@ -29,22 +31,25 @@ function App() {
   return (
    <div>
     <Logo />
-    <BrowserRouter>
     <Header />
-    </BrowserRouter>
-    <StartForm />
+    {/* <BrowserRouter>
+    </BrowserRouter> */}
+      <StartForm />
 
-     {questions.filter(q => q.id === randomQuestion)
-     .map((q) => {
+      {questions.filter(q => q.id === randomQuestion)
+        .map((q) => {
        return (
          <div>
-           <QuestionContainer question={[q]} allQuestions={questions} setQuestions={setQuestions} />
-         </div>
-       )
-     })}
+           <QuestionContainer question={[q]} allQuestions={questions} 
+            setQuestions={setQuestions}
+            playerStat={playerStat} setPlayerStat={setPlayerStat}
+            />
+         </div>)
+        }
+        )
+      }
 
-    
-    <PlayerStats />
+    <PlayerStats playerStat={playerStat}/>
     <AddNewQuestionForm LOCAL_API={LOCAL_API} />
     <Footer />
    </div>
