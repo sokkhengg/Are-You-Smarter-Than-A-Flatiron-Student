@@ -7,7 +7,7 @@ import {BrowserRouter} from "react-router-dom";
 import Header from "./Header"
 import Logo from './Logo';
 import StartForm from './StartForm';
-import Test from "./Test.js";
+import QuestionContainer from './QuestionContainer';
 import PlayerStats from "./PlayerStats"
 import AddNewQuestionForm from './AddNewQuestionForm.js';
 import Footer from './Footer';
@@ -25,6 +25,7 @@ function App() {
   }, []
   )
 
+  const randomQuestion = Math.floor(Math.random() * (26708 - 26608) + 26608)
   return (
    <div>
     <Logo />
@@ -33,13 +34,16 @@ function App() {
     </BrowserRouter>
     <StartForm />
 
-     {/* {questions.map(q => {
+     {questions.filter(q => q.id === randomQuestion)
+     .map((q) => {
        return (
          <div>
-           <Test question={q} />
+           <QuestionContainer question={[q]} allQuestions={questions} setQuestions={setQuestions} />
          </div>
        )
-     })} */}
+     })}
+
+    
     <PlayerStats />
     <AddNewQuestionForm LOCAL_API={LOCAL_API} />
     <Footer />
