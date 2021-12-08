@@ -1,4 +1,4 @@
-import { Dropdown, Button, GridColumn,  Grid } from 'semantic-ui-react'
+import { Dropdown, GridColumn,  Grid } from 'semantic-ui-react'
 
 function StartForm() {
     
@@ -15,7 +15,6 @@ function StartForm() {
                     <GridColumn></GridColumn>
                     <GridColumn textAlign="center">
                         <Dropdown options={options} selection />&nbsp;&nbsp;&nbsp;&nbsp;
-                        <Button primary>Start the Quiz</Button>
                 </GridColumn>
             </Grid>
              
