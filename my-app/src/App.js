@@ -1,5 +1,7 @@
-import "semantic-ui-css/semantic.min.css";
-import { useEffect, useState } from "react";
+
+import 'semantic-ui-css/semantic.min.css';
+import { useEffect, useState } from 'react';
+// import {BrowserRouter} from "react-router-dom"; 
 
 import Header from "./Header";
 import Logo from "./Logo";
@@ -11,6 +13,7 @@ import AddNewQuestionForm from "./AddNewQuestionForm.js";
 import Footer from "./Footer";
 
 function App() {
+
   const [questions, setQuestions] = useState([]);
   const [playerStat, setPlayerStat] = useState({
     money: 0,
@@ -23,6 +26,7 @@ function App() {
     length: "",
   });
 
+
   const LOCAL_API = `http://localhost:3000/${gameOptions.category}`;
   useEffect(() => {
     fetch(LOCAL_API)
@@ -32,6 +36,7 @@ function App() {
 
   const randomQuestion = Math.floor(Math.random() * (4 - 1) + 1);
   return (
+
     <div>
       <Logo />
       <Header />
@@ -60,6 +65,7 @@ function App() {
       <AddNewQuestionForm LOCAL_API={LOCAL_API} />
       <Footer />
     </div>
+
   );
 }
 

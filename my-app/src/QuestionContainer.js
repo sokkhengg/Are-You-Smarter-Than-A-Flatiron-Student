@@ -2,7 +2,10 @@ import React from "react";
 import { Grid, Card } from "semantic-ui-react";
 import AnswerContainer from "./AnswerContainer";
 
-export default function QuestionContainer({question, allQuestions, setQuestions, playerStat, setPlayerStat}) {
+
+export default function QuestionContainer({question,
+   allQuestions, setQuestions, playerStat, setPlayerStat}) {
+
   return (
       <Grid columns="equal">
         <Grid.Column></Grid.Column>

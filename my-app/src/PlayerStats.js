@@ -1,6 +1,7 @@
 import React from "react";
 import { Icon, Statistic } from "semantic-ui-react";
 
+
 export default function PlayerStats({playerStat}) {
   return (
     <Statistic.Group widths="three">

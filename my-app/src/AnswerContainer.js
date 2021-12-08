@@ -1,8 +1,7 @@
 import React from 'react'
 import { Button, Grid } from "semantic-ui-react";
 
-export default function AnswerContainer({answer, allQuestions, 
-    setQuestions, playerStat, setPlayerStat, question})  {
+export default function AnswerContainer({answer, allQuestions, setQuestions, playerStat, setPlayerStat, question})  {
     
     const randomAnswer1 = Math.floor(Math.random() * 4)
     const rightOrWrong = Math.floor(Math.random() * 2)
@@ -15,8 +14,7 @@ export default function AnswerContainer({answer, allQuestions,
         setPlayerStat({...playerStat, wrong: playerStat.wrong + 1, money: playerStat.money - question })
       }
         }
-    
- 
+   
     const myAnswer = rightOrWrong === 1 ? <Grid columns="equal" fluid padded>
         <Grid.Row >
           <Button basic color="blue" size="huge" fluid key={{answer}} onClick={(e) => handleButtonClick(e)}>
@@ -55,7 +53,7 @@ export default function AnswerContainer({answer, allQuestions,
           <Grid columns="3">
             <Grid.Column></Grid.Column>
             <Grid.Column textAlign="center">
-              <Button negative>Skip</Button>
+              <Button negative onClick={(e) => handleButtonClick(e)} >Skip</Button>
             </Grid.Column>
             <Grid.Column></Grid.Column>
           </Grid>

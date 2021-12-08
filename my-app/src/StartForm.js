@@ -1,3 +1,4 @@
+
 import { Dropdown, Button, GridColumn, Grid } from "semantic-ui-react";
 
 function StartForm({ gameOptions, setGameOptions }) {
@@ -76,3 +77,4 @@ function StartForm({ gameOptions, setGameOptions }) {
 }
 
 export default StartForm;
+
