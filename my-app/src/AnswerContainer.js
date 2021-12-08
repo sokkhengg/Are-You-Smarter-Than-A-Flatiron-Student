@@ -3,14 +3,19 @@ import { Button, Grid } from "semantic-ui-react";
 
 export default function AnswerContainer({answer, allQuestions, setQuestions}) {
     
-    const randomAnswer1 = Math.floor(Math.random() * 100)
-    const rightOrWrong = Math.floor(Math.random() * 4)
+    const randomAnswer1 = Math.floor(Math.random() * 4)
+    const rightOrWrong = Math.floor(Math.random() * 2)
 
     function handleButtonClick(e) {
-        if (e.target.innerText === answer) {
-            setTimeout(() => setQuestions([...allQuestions]) , 2000)
+      if (e.target.innerText === answer) {
+        setPlayerStat({...playerStat, money: playerStat.money + question, correct: playerStat.correct + 1 })
+        //setTimeout(() => setQuestions([...allQuestions]) , 2000)
+      } else {
+        setPlayerStat({...playerStat, wrong: playerStat.wrong + 1, money: playerStat.money - question })
+      }
+
         }
-    }
+    
  
     const myAnswer = rightOrWrong === 1 ? <Grid columns="equal" fluid padded>
         <Grid.Row >

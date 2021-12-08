@@ -4,14 +4,13 @@ import AnswerContainer from "./AnswerContainer";
 
 export default function QuestionContainer({question, allQuestions, setQuestions}) {
   return (
-      
       <Grid columns="equal">
         <Grid.Column></Grid.Column>
         <Grid.Column>
           <Card fluid>
             <Card.Content>
               <Card.Meta textAlign="center">
-                <span>$500</span>
+              <span>${question[0].value}</span>
               </Card.Meta>
               <br />
               <Card.Header textAlign="center">{question[0].question}</Card.Header>

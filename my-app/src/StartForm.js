@@ -1,62 +1,71 @@
-import React,{useState} from 'react'
-import { Dropdown, Button, GridColumn,  Grid } from 'semantic-ui-react'
+import { Dropdown, Button, GridColumn, Grid } from "semantic-ui-react";
 
-function StartForm() {
-    
-    const [starts, setStart] = useState(false)
-    const [select, setSelect] = useState()
-    
-    function handleStartForm({start}){
-        console.log(setStart, "start")
-    }
+function StartForm({ gameOptions, setGameOptions }) {
+  const options = [
+    { key: 1, text: "Easy", value: "Easy" },
+    { key: 2, text: "Medium", value: "Medium" },
+    { key: 3, text: "Hard", value: "Hard" },
+  ];
 
-    const options = [
-        { key: 1, text: 'Easy', value: 1 },
-        { key: 2, text: 'Medium', value: 2 },
-        { key: 3, text: 'Hard', value: 3 },
-      ]
+  const categoryOptions = [
+    { key: 4, text: "WorldHistory", value: "WorldHistory" },
+    { key: 5, text: "Music", value: "Music" },
+    { key: 6, text: "TVFilm", value: "TVFilm" },
+  ];
 
-    return (
-        <div>
-            <Grid columns="equal">
-                <GridColumn></GridColumn>
-                <GridColumn textAlign="center">
-                    <Dropdown options={options} selection />&nbsp;&nbsp;&nbsp;&nbsp;
-                    <Button primary>Start the Quiz</Button></GridColumn>
-                <GridColumn></GridColumn>
-            </Grid>
+  const quizLengthOptions = [
+    { key: 7, text: "5", value: 5 },
+    { key: 8, text: "10", value: 10 },
+    { key: 9, text: "15", value: 15 },
+  ];
 
+  function handleGameOptions(e, name) {
+    const value = e.target.innerText;
+    setGameOptions({ ...gameOptions, [name]: value });
+  }
 
-
-
-             
-        </div>       
-    )
+  return (
+    <div>
+      <Grid columns="equal">
+        <GridColumn></GridColumn>
+        <GridColumn textAlign="center">
+          <Dropdown
+            options={options}
+            placeholder="Difficulty"
+            name="dificulty"
+            value={gameOptions.difficulty}
+            fluid
+            selection
+            onChange={(e) => handleGameOptions(e, "difficulty")}
+          />
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <Dropdown
+            options={categoryOptions}
+            placeholder="Category"
+            name="category"
+            value={gameOptions.category}
+            fluid
+            selection
+            onChange={(e) => handleGameOptions(e, "category")}
+          />
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <Dropdown
+            options={quizLengthOptions}
+            placeholder="No. Questions"
+            name="length"
+            value={gameOptions.length}
+            fluid
+            selection
+            onChange={(e) => handleGameOptions(e, "length")}
+          />
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <br />
+          <Button primary>Start the Quiz</Button>
+        </GridColumn>
+        <GridColumn></GridColumn>
+      </Grid>
+    </div>
+  );
 }
 
-export default StartForm
-
-
-
-
-
-
-
-
- {/* <div className="startForm">
-                <button key={starts} starts={starts} onClick={handleStartForm}>
-                    StartForm
-                </button>
-            </div>
-            <hr/>
-            <div className="selectDifficulty">
-                <i>Select Difficulty</i>
-                <select value={select} onChange={e=> setSelect(e.target.value)}>
-                    <option></option>
-                    <option>Easy</option>
-                    <option>Medium</option>
-                    <option>Hard</option>
-                </select>
-            <hr className="startFormDivider"/>
-               
-            </div>*/}
+export default StartForm;

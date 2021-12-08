@@ -1,11 +1,17 @@
 import React, { useState } from "react";
-import { Form, Button, Grid } from "semantic-ui-react";
+import { Form, Button, Grid, Dropdown } from "semantic-ui-react";
 
 export default function AddNewQuestionForm({ LOCAL_API }) {
   const [newQuestion, setNewQuestion] = useState({
     question: "",
     answer: "",
   });
+
+  const categoryOptions = [
+    { key: 4, text: "WorldHistory", value: "WorldHistory" },
+    { key: 5, text: "Music", value: "Music" },
+    { key: 6, text: "TVFilm", value: "TVFilm" },
+  ];
 
   function handleOnChange(e) {
     const name = e.target.name;
@@ -14,10 +20,10 @@ export default function AddNewQuestionForm({ LOCAL_API }) {
   }
 
   function handleSubmit() {
-    if(newQuestion.question === "" || newQuestion.answer === "") {
-        return
+    if (newQuestion.question === "" || newQuestion.answer === "") {
+      return;
     }
-    
+
     fetch(LOCAL_API, {
       method: "POST",
       headers: {
@@ -27,10 +33,10 @@ export default function AddNewQuestionForm({ LOCAL_API }) {
     })
       .then((r) => r.json())
       .then(() => {
-          setNewQuestion({
-            question: "",
-            answer: "",
-          })
+        setNewQuestion({
+          question: "",
+          answer: "",
+        });
       })
       .catch((error) => console.error(error));
   }
@@ -44,16 +50,30 @@ export default function AddNewQuestionForm({ LOCAL_API }) {
           <Form>
             <Form.Group widths="equal">
               <Form.Field required onChange={(e) => handleOnChange(e)}>
-                <label>Question</label>
-                <input placeholder="Question" name="question" value={newQuestion.question} />
+                {/* <label>Question</label> */}
+                <input
+                  placeholder="Question"
+                  name="question"
+                  value={newQuestion.question}
+                />
               </Form.Field>
-
               <Form.Field required onChange={(e) => handleOnChange(e)}>
-                <label>Answer</label>
-                <input placeholder="Answer" name="answer" value={newQuestion.answer}/>
+                {/* <label>Answer</label> */}
+                <input
+                  placeholder="Answer"
+                  name="answer"
+                  value={newQuestion.answer}
+                />
               </Form.Field>
-
-              <Button type="submit" onClick={(e) => handleSubmit(e)}>
+              <Dropdown
+                options={categoryOptions}
+                placeholder="Category"
+                name="category"
+                fluid
+                selection
+              />{" "}
+              &nbsp;&nbsp;
+              <Button type="submit" onClick={(e) => handleSubmit(e)} fluid>
                 Add a Question
               </Button>
             </Form.Group>
