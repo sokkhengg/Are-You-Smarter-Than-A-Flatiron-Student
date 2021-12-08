@@ -4,6 +4,7 @@ import {Grid, GridColumn} from "semantic-ui-react"
 function Header() {
     return (
         <div className="header">
+        
             <Grid columns="equal">
                 <GridColumn></GridColumn>
                 <GridColumn textAlign="center">
@@ -14,9 +15,7 @@ function Header() {
                 </GridColumn>
                 <GridColumn></GridColumn>
             </Grid>
-           
-
-     
+    
         </div>
     )
 }

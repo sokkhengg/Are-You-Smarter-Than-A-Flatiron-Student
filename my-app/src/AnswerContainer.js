@@ -1,7 +1,8 @@
 import React from 'react'
 import { Button, Grid } from "semantic-ui-react";
 
-export default function AnswerContainer({answer, allQuestions, setQuestions}) {
+export default function AnswerContainer({answer, allQuestions, 
+    setQuestions, playerStat, setPlayerStat, question})  {
     
     const randomAnswer1 = Math.floor(Math.random() * 4)
     const rightOrWrong = Math.floor(Math.random() * 2)
@@ -13,7 +14,6 @@ export default function AnswerContainer({answer, allQuestions, setQuestions}) {
       } else {
         setPlayerStat({...playerStat, wrong: playerStat.wrong + 1, money: playerStat.money - question })
       }
-
         }
     
  

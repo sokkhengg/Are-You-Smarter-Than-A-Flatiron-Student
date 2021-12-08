@@ -20,7 +20,14 @@ function StartForm({ gameOptions, setGameOptions }) {
   ];
 
   function handleGameOptions(e, name) {
-    const value = e.target.innerText;
+    let value = e.target.innerText
+    if (e.target.innerText === "Easy") {
+        value = 100
+    } else if (e.target.innerText === "Medium") {
+        value = 500
+    } else if (e.target.innerText === "Hard") {
+        value = 1500
+    }
     setGameOptions({ ...gameOptions, [name]: value });
   }
 
