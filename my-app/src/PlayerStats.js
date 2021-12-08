@@ -1,14 +1,14 @@
 import React from "react";
 import { Icon, Statistic } from "semantic-ui-react";
 
-export default function PlayerStats({playerStat, setPlayerStat}) {
 
+export default function PlayerStats({playerStat}) {
   return (
     <Statistic.Group widths="three">
       <Statistic>
         <Statistic.Value>
           <Icon name="money" />
-          &nbsp;&nbsp;{playerStat.money}
+          &nbsp;&nbsp;${playerStat.money}
         </Statistic.Value>
         <Statistic.Label>Money Earned</Statistic.Label>
       </Statistic>
