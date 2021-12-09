@@ -9,7 +9,7 @@ function Header() {
                 <GridColumn></GridColumn>
                 <GridColumn textAlign="center">
                     <h1>
-                    Welcome to Quiz App
+                    Are You Smarter Than A FlatIron Student? 
                     </h1>
                     <hr className="headerDivider"/>
                 </GridColumn>

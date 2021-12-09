@@ -35,8 +35,9 @@ function StartForm({ gameOptions, setGameOptions, gameStart, setGameStart }) {
 }
 
 function handleStartClick(){
-    if (gameOptions.category === "" || gameOptions.length === "")
+    if (gameOptions.category === "" || gameOptions.length === "") {
     return
+    }
     setGameStart(true)
   }
 

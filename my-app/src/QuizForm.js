@@ -6,13 +6,14 @@ import StartForm from './StartForm';
 import QuizResults from './QuizResults'
 import Footer from './Footer';
 
-function QuizForm() {
+function QuizForm({ visible, setVisible }) {
     const randomQuestion = Math.floor(Math.random() * (4 - 1) + 1);
     const[questions, setQuestions] = useState([]);
     const [playerStat, setPlayerStat] = useState({
       money:0,
       correct:0,
       wrong:0,
+      answered:0,
     })
     
     const [gameOptions, setGameOptions] = useState({
@@ -36,7 +37,7 @@ function QuizForm() {
 
     <div>
       <StartForm gameOptions={gameOptions} setGameOptions={setGameOptions} gameStart={gameStart} setGameStart={setGameStart} />
-      {playerStat.correct < Number(gameOptions.length) ? (
+      {playerStat.answered < Number(gameOptions.length) && gameStart ? (
         questions
           .filter((q) => q.id === randomQuestion)
           .map((q) => {
@@ -48,17 +49,16 @@ function QuizForm() {
                   setQuestions={setQuestions}
                   playerStat={playerStat}
                   setPlayerStat={setPlayerStat}
+                  gameOptions={gameOptions}
+                  visible={visible}
+                  setVisible={setVisible}
                 />
               </div>
             );
           })
       ) : (
-        <QuizResults playerStat={playerStat} gameStart={gameStart} setGameStart={setGameStart}/>
+        gameStart ? <QuizResults playerStat={playerStat} setPlayerStat={setPlayerStat} gameStart={gameStart} setGameStart={setGameStart}/> : null
       )}
-
-      <PlayerStats playerStat={playerStat} />
-      {/* <AddNewQuestionForm LOCAL_API={LOCAL_API} /> */}
-      {/* <Footer /> */}
             
         </div>
     )
