@@ -1,9 +1,8 @@
 import { useState } from 'react';
 import { Dropdown, GridColumn,  Grid, Button } from 'semantic-ui-react'
 
-function StartForm({ gameOptions, setGameOptions }) {
+function StartForm({ gameOptions, setGameOptions, gameStart, setGameStart }) {
 
-    const [gameStart, setGameStart] = useState(false)
 
   const options = [
     { key: 1, text: "Easy", value: "Easy" },
@@ -18,9 +17,9 @@ function StartForm({ gameOptions, setGameOptions }) {
   ];
 
   const quizLengthOptions = [
-    { key: 7, text: "5", value: 5 },
-    { key: 8, text: "10", value: 10 },
-    { key: 9, text: "15", value: 15 },
+    { key: 7, text: "5", value: "5" },
+    { key: 8, text: "10", value: "10" },
+    { key: 9, text: "15", value: "15" },
   ];
 
   function handleGameOptions(e, name) {

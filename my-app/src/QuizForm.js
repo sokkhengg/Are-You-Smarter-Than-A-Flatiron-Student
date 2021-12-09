@@ -21,6 +21,9 @@ function QuizForm() {
       length: "",
     });
 
+    const [gameStart, setGameStart] = useState(false)
+
+
     const LOCAL_API = `http://localhost:3000/${gameOptions.category}`;
 
     useEffect(() => {
@@ -32,7 +35,7 @@ function QuizForm() {
   return (
 
     <div>
-      <StartForm gameOptions={gameOptions} setGameOptions={setGameOptions} />
+      <StartForm gameOptions={gameOptions} setGameOptions={setGameOptions} gameStart={gameStart} setGameStart={setGameStart} />
       {playerStat.correct < Number(gameOptions.length) ? (
         questions
           .filter((q) => q.id === randomQuestion)
@@ -50,7 +53,7 @@ function QuizForm() {
             );
           })
       ) : (
-        <QuizResults playerStat={playerStat}/>
+        <QuizResults playerStat={playerStat} gameStart={gameStart} setGameStart={setGameStart}/>
       )}
 
       <PlayerStats playerStat={playerStat} />
