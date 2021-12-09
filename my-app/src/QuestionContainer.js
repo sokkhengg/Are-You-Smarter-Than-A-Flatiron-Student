@@ -13,12 +13,14 @@ export default function QuestionContainer({question,
           <Card fluid>
             <Card.Content>
               <Card.Meta textAlign="center">
-              {playerStat.answered}/{gameOptions.length} - <span>${question[0].value}</span>
+              <h3>{playerStat.answered}/{gameOptions.length} - ${question[0].value}</h3>
               </Card.Meta>
               <br />
-              <Card.Header textAlign="center">{question[0].question}</Card.Header>
+              <Card.Header textAlign="center"><h1>{question[0].question}</h1></Card.Header>
               <br />
-              <AnswerContainer answer={question[0].answer} question={question[0].value} allQuestions={allQuestions} setQuestions={setQuestions} playerStat={playerStat} setPlayerStat={setPlayerStat} />
+              <AnswerContainer answer={question[0].answer} question={question[0].value} 
+                allQuestions={allQuestions} setQuestions={setQuestions} 
+                playerStat={playerStat} setPlayerStat={setPlayerStat} />
                 
                 <Grid columns="equal">
                 <Grid.Column></Grid.Column>

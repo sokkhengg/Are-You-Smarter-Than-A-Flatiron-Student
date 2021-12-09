@@ -1,14 +1,6 @@
-import { useState } from 'react';
 import { Dropdown, GridColumn,  Grid, Button } from 'semantic-ui-react'
 
 function StartForm({ gameOptions, setGameOptions, gameStart, setGameStart }) {
-
-
-  const options = [
-    { key: 1, text: "Easy", value: "Easy" },
-    { key: 2, text: "Medium", value: "Medium" },
-    { key: 3, text: "Hard", value: "Hard" },
-  ];
 
   const categoryOptions = [
     { key: 4, text: "WorldHistory", value: "WorldHistory" },
@@ -24,13 +16,6 @@ function StartForm({ gameOptions, setGameOptions, gameStart, setGameStart }) {
 
   function handleGameOptions(e, name) {
     let value = e.target.innerText
-    if (e.target.innerText === "Easy") {
-        value = 100
-    } else if (e.target.innerText === "Medium") {
-        value = 500
-    } else if (e.target.innerText === "Hard") {
-        value = 1500
-    }
     setGameOptions({ ...gameOptions, [name]: value });
 }
 
@@ -49,15 +34,7 @@ function handleStartClick(){
         <GridColumn></GridColumn>
         <GridColumn textAlign="center">
 
-          <Dropdown
-            options={options}
-            placeholder="Difficulty"
-            name="dificulty"
-            value={gameOptions.difficulty}
-            fluid
-            selection
-            onChange={(e) => handleGameOptions(e, "difficulty")}
-          />
+         
           &nbsp;&nbsp;&nbsp;&nbsp;
           <Dropdown
             options={categoryOptions}

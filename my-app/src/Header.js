@@ -8,9 +8,9 @@ function Header() {
             <Grid columns="equal">
                 <GridColumn></GridColumn>
                 <GridColumn textAlign="center">
-                    <h1>
+                    <h3>
                     Are You Smarter Than A FlatIron Student? 
-                    </h1>
+                    </h3>
                     <hr className="headerDivider"/>
                 </GridColumn>
                 <GridColumn></GridColumn>

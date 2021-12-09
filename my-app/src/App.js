@@ -18,6 +18,7 @@ import {
   Statistic,
 } from "semantic-ui-react";
 import { useState } from "react";
+import HomePageText from "./HomePageText";
 
 function App() {
   const [visible, setVisible] = useState(false);
@@ -68,20 +69,19 @@ function App() {
               </Statistic.Group>
             </Sidebar>
 
+
+
             <Sidebar.Pusher>
               <Segment basic>
               
                 <Logo />
-                <NavBar />
                 <Header />
-                
+                <NavBar />
+
 
                 <Switch>
-                  <Route path="/app">
-                    <App />
-                  </Route>
 
-                  <Route path="/quizform">
+                  <Route path="/" exact>
                     <QuizForm visible={visible} setVisible={setVisible} />
                   </Route>
 
@@ -92,6 +92,7 @@ function App() {
                   <Route path="/leaderboard">
                     <Leaderboard />
                   </Route>
+
                 </Switch>
 
                 <Footer />

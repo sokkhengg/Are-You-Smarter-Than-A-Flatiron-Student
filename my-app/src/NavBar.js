@@ -8,13 +8,10 @@ function NavBar() {
       <Grid columns="equal">
         <Grid.Column></Grid.Column>
         <Grid.Column textAlign="center">
-          <Menu compact inverted={true}>
-            <Menu.Item link>
-              <NavLink to="/"><Icon name="home" /></NavLink>
-            </Menu.Item>
+          <Menu compact>
 
             <Menu.Item link>
-              <NavLink to="/QuizForm">Quiz</NavLink>
+              <NavLink to="/">Quiz</NavLink>
             </Menu.Item>
 
             <Menu.Item link>
@@ -22,7 +19,7 @@ function NavBar() {
             </Menu.Item>
 
             <Menu.Item link>
-              <NavLink to="/AddNewQuestionForm">Add a Question</NavLink>
+              <NavLink to="/addnewquestionform">Add a Question</NavLink>
             </Menu.Item>
           </Menu>
         </Grid.Column>

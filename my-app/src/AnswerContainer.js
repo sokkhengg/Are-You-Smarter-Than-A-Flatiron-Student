@@ -20,7 +20,6 @@ export default function AnswerContainer({
         correct: playerStat.correct + 1,
         answered: playerStat.answered + 1,
       });
-      //setTimeout(() => setQuestions([...allQuestions]) , 2000)
     } else {
       setPlayerStat({
         ...playerStat,
@@ -35,55 +34,70 @@ export default function AnswerContainer({
     rightOrWrong === 1 ? (
       <Grid columns="equal" fluid padded>
         <Grid.Row>
+        <Grid.Column></Grid.Column>
           <Button
             basic
+            width="5"
             color="blue"
-            size="huge"
-            fluid
+            size="medium"
             key={{ answer }}
             onClick={(e) => handleButtonClick(e)}
           >
             {answer}
           </Button>
+        <Grid.Column></Grid.Column>
         </Grid.Row>
 
         <Grid.Row>
+        <Grid.Column></Grid.Column>
+
           <Button
             basic
+            width="5"
             color="blue"
-            size="huge"
-            fluid
+            size="medium"
+            
             key={allQuestions[randomAnswer1].answer}
             onClick={(e) => handleButtonClick(e)}
           >
             {allQuestions[randomAnswer1].answer}
           </Button>
+        <Grid.Column></Grid.Column>
+
         </Grid.Row>
       </Grid>
     ) : (
       <Grid columns="equal" fluid padded>
         <Grid.Row>
+        <Grid.Column></Grid.Column>
+
           <Button
             basic
+            width="5"
             color="blue"
-            size="huge"
-            fluid
+            size="medium"
             onClick={(e) => handleButtonClick(e)}
           >
             {allQuestions[randomAnswer1].answer}
           </Button>
+        <Grid.Column></Grid.Column>
+
         </Grid.Row>
 
         <Grid.Row>
+        <Grid.Column></Grid.Column>
+
           <Button
             basic
+            width="5"
             color="blue"
-            size="huge"
-            fluid
+            size="medium"
             onClick={(e) => handleButtonClick(e)}
           >
             {answer}
           </Button>
+        <Grid.Column></Grid.Column>
+
         </Grid.Row>
       </Grid>
     );
