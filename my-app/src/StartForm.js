@@ -1,30 +1,10 @@
-import { Dropdown, GridColumn,  Grid } from 'semantic-ui-react'
-
-function StartForm() {
-    
-    const options = [
-        { key: 1, text: 'Easy', value: 1 },
-        { key: 2, text: 'Medium', value: 2 },
-        { key: 3, text: 'Hard', value: 3 },
-      ]
-
-    return (
-        <div>
-            <Grid columns="equal">
-                <GridColumn></GridColumn>
-                    <GridColumn></GridColumn>
-                    <GridColumn textAlign="center">
-                        <Dropdown options={options} selection />&nbsp;&nbsp;&nbsp;&nbsp;
-                </GridColumn>
-            </Grid>
-             
-        </div>       
-    )
-}
-
-import { Dropdown, Button, GridColumn, Grid } from "semantic-ui-react";
+import { useState } from 'react';
+import { Dropdown, GridColumn,  Grid, Button } from 'semantic-ui-react'
 
 function StartForm({ gameOptions, setGameOptions }) {
+
+    const [gameStart, setGameStart] = useState(false)
+
   const options = [
     { key: 1, text: "Easy", value: "Easy" },
     { key: 2, text: "Medium", value: "Medium" },
@@ -53,13 +33,22 @@ function StartForm({ gameOptions, setGameOptions }) {
         value = 1500
     }
     setGameOptions({ ...gameOptions, [name]: value });
+}
+
+function handleStartClick(){
+    if (gameOptions.category === "" || gameOptions.length === "")
+    return
+    setGameStart(true)
   }
 
   return (
     <div>
+      
+      {gameStart ? null :
       <Grid columns="equal">
         <GridColumn></GridColumn>
         <GridColumn textAlign="center">
+
           <Dropdown
             options={options}
             placeholder="Difficulty"
@@ -91,10 +80,14 @@ function StartForm({ gameOptions, setGameOptions }) {
           />
           &nbsp;&nbsp;&nbsp;&nbsp;
           <br />
-          <Button primary>Start the Quiz</Button>
+
+          <Button primary
+          onClick={handleStartClick}
+          >Start the Quiz</Button>
         </GridColumn>
         <GridColumn></GridColumn>
       </Grid>
+      }
     </div>
   );
 }

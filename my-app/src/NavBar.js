@@ -8,6 +8,9 @@ function NavBar() {
       <br/>
       <li><NavLink to="/QuizForm">QuizForm</NavLink></li>
       <br/>
+      <br/>
+      <li><NavLink to="/AddNewQuestionForm">AddNewQuestionForm</NavLink></li>
+      <br/>
   </ul>;
 }
 
