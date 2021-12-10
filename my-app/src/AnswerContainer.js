@@ -1,15 +1,8 @@
 import React from "react";
 import { Button, Grid } from "semantic-ui-react";
 
-export default function AnswerContainer({
-  answer,
-  allQuestions,
-  setQuestions,
-  playerStat,
-  setPlayerStat,
-  question,
-}) {
-  const randomAnswer1 = Math.floor(Math.random() * 4);
+export default function AnswerContainer({ answer, allQuestions, playerStat, setPlayerStat, question }) {
+  const randomAnswer = Math.floor(Math.random() * 4);
   const rightOrWrong = Math.floor(Math.random() * 2);
 
   function handleButtonClick(e) {
@@ -30,7 +23,7 @@ export default function AnswerContainer({
     }
   }
 
-  const myAnswer =
+  const questionAnswers =
     rightOrWrong === 1 ? (
       <Grid columns="equal" fluid padded>
         <Grid.Row>
@@ -57,10 +50,10 @@ export default function AnswerContainer({
             color="blue"
             size="medium"
             
-            key={allQuestions[randomAnswer1].answer}
+            key={allQuestions[randomAnswer].answer}
             onClick={(e) => handleButtonClick(e)}
           >
-            {allQuestions[randomAnswer1].answer}
+            {allQuestions[randomAnswer].answer}
           </Button>
         <Grid.Column></Grid.Column>
 
@@ -78,7 +71,7 @@ export default function AnswerContainer({
             size="medium"
             onClick={(e) => handleButtonClick(e)}
           >
-            {allQuestions[randomAnswer1].answer}
+            {allQuestions[randomAnswer].answer}
           </Button>
         <Grid.Column></Grid.Column>
 
@@ -104,7 +97,7 @@ export default function AnswerContainer({
 
   return (
     <>
-      {myAnswer}
+      {questionAnswers}
 
       <Grid columns="3">
         <Grid.Column></Grid.Column>

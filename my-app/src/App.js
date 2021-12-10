@@ -1,108 +1,160 @@
 import "semantic-ui-css/semantic.min.css";
+import { Grid, Sidebar, Segment, Menu, Icon, Statistic } from "semantic-ui-react";
+import { Route, Switch } from "react-router-dom";
+import { useState } from "react";
+
 import Header from "./Header";
 import Logo from "./Logo";
 import Footer from "./Footer";
-import { Route, Switch } from "react-router-dom";
 import NavBar from "./NavBar";
 import QuizForm from "./QuizForm";
 import AddNewQuestionForm from "./AddNewQuestionForm";
 import Leaderboard from "./Leaderboard";
-import {
-  Grid,
-  Checkbox,
-  Sidebar,
-  Segment,
-  Menu,
-  Icon,
-  Button,
-  Statistic,
-} from "semantic-ui-react";
-import { useState } from "react";
-import HomePageText from "./HomePageText";
 
 function App() {
   const [visible, setVisible] = useState(false);
-
+  const [newQuestion, setNewQuestion] = useState({
+    question: "",
+    answer: "",
+    category: "",
+    value: 0,
+  });
+  const [playerStat, setPlayerStat] = useState({
+    money: 0,
+    correct: 0,
+    wrong: 0,
+    answered: 0,
+  });
 
   return (
-   <> 
-    
-      <Grid columns={1}>
-        
-
+    <>
+      <Grid columns={1} columns="equal" textAlign="center">
         <Grid.Column>
           <Sidebar.Pushable as={Segment}>
             <Sidebar
               as={Menu}
               animation="overlay"
               icon="labeled"
-              onHide={() => setVisible(false)}
               vertical
               visible={visible}
-              width="thin"
+              width="wide"
               direction="right"
             >
-              <Statistic.Group widths="three" size="tiny">
-                <Statistic size="tiny">
-                  <Statistic.Value>
-                    <Icon name="money" />
-                    &nbsp;&nbsp;100
-                  </Statistic.Value>
-                  <Statistic.Label>Money Earned</Statistic.Label>
-                </Statistic>
+              <Grid columns="equal">
+                <br />
+                <br />
+                <br />
 
-                <Statistic>
-                  <Statistic.Value>
-                    <Icon name="checkmark" />
-                    &nbsp;&nbsp;5
-                  </Statistic.Value>
-                  <Statistic.Label>Correct Answers</Statistic.Label>
-                </Statistic>
+                {playerStat.money >= 1 ? (
+                  <Statistic size="medium" color="green">
+                    <Statistic.Value>
+                      <Icon name="money" />
+                      &nbsp;&nbsp;{playerStat.money}
+                    </Statistic.Value>
+                    <Statistic.Label>Money Earned</Statistic.Label>
+                  </Statistic>
+                ) : (
+                  <Statistic size="medium">
+                    <Statistic.Value>
+                      <Icon name="money" />
+                      &nbsp;&nbsp;{playerStat.money}
+                    </Statistic.Value>
+                    <Statistic.Label>Money Earned</Statistic.Label>
+                  </Statistic>
+                )}
 
-                <Statistic>
-                  <Statistic.Value>
-                    <Icon name="x" />
-                    &nbsp;&nbsp;5
-                  </Statistic.Value>
-                  <Statistic.Label>Wrong/Skipped</Statistic.Label>
-                </Statistic>
-              </Statistic.Group>
+                <br />
+                <br />
+
+                {playerStat.correct >= 1 ? (
+                  <Statistic size="medium" color="green">
+                    <Statistic.Value>
+                      <Icon name="checkmark" />
+                      &nbsp;&nbsp;{playerStat.correct}
+                    </Statistic.Value>
+                    <Statistic.Label>Correct Answers</Statistic.Label>
+                  </Statistic>
+                ) : (
+                  <Statistic size="medium">
+                    <Statistic.Value>
+                      <Icon name="checkmark" />
+                      &nbsp;&nbsp;{playerStat.correct}
+                    </Statistic.Value>
+                    <Statistic.Label>Correct Answers</Statistic.Label>
+                  </Statistic>
+                )}
+
+                <br />
+                <br />
+
+                {playerStat.wrong >= 1 ? (
+                  <Statistic size="medium" color="red">
+                    <Statistic.Value>
+                      <Icon name="x" />
+                      &nbsp;&nbsp;{playerStat.wrong}
+                    </Statistic.Value>
+                    <Statistic.Label>Wrong/Skipped</Statistic.Label>
+                  </Statistic>
+                ) : (
+                  <Statistic size="medium">
+                    <Statistic.Value>
+                      <Icon name="x" />
+                      &nbsp;&nbsp;{playerStat.wrong}
+                    </Statistic.Value>
+                    <Statistic.Label>Wrong/Skipped</Statistic.Label>
+                  </Statistic>
+                )}
+              </Grid>
             </Sidebar>
-
-
 
             <Sidebar.Pusher>
               <Segment basic>
-              
                 <Logo />
                 <Header />
                 <NavBar />
 
-
                 <Switch>
-
                   <Route path="/" exact>
-                    <QuizForm visible={visible} setVisible={setVisible} />
+                    <QuizForm
+                      playerStat={playerStat}
+                      setPlayerStat={setPlayerStat}
+                      visible={visible}
+                      setVisible={setVisible}
+                    />
                   </Route>
 
                   <Route path="/addnewquestionform">
-                    <AddNewQuestionForm />
+                    <AddNewQuestionForm
+                      newQuestion={newQuestion}
+                      setNewQuestion={setNewQuestion}
+                    />
                   </Route>
 
                   <Route path="/leaderboard">
                     <Leaderboard />
                   </Route>
-
                 </Switch>
 
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
                 <Footer />
+                <br />
               </Segment>
             </Sidebar.Pusher>
           </Sidebar.Pushable>
         </Grid.Column>
       </Grid>
-    
- </> );
+    </>
+  );
 }
 
 export default App;
