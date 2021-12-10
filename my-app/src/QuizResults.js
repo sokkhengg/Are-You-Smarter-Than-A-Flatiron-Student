@@ -1,18 +1,8 @@
 import React from "react";
-import {
-  Button,
-  Grid,
-  Card,
-  Form,
-  Statistic,
-  Icon,
-} from "semantic-ui-react";
+import { Button, Grid, Card, Form, Statistic, Icon } from "semantic-ui-react";
 
-export default function QuizResults({
-  playerStat,
-  setPlayerStat,
-  setGameStart,
-}) {
+export default function QuizResults({ playerStat, setPlayerStat, setGameStart }) {
+  
   function handleClick() {
     setGameStart(false);
     setPlayerStat({
@@ -23,10 +13,15 @@ export default function QuizResults({
     });
   }
 
-  // TODO: Add logic to stop submit idf no name is given or money is 0 or less
   function handleAddToLeaderBoard(e) {
+    if (e.target.parentNode[0].value === "") {
+      alert("You must provide a name");
+      return;
+    }
+
     const newLeaderBoardEntry = {
       name: e.target.parentNode[0].value,
+      message: e.target.parentNode[1].value,
       money: playerStat.money,
       correct: playerStat.correct,
     };
@@ -37,8 +32,7 @@ export default function QuizResults({
         "Content-Type": "application/json",
       },
       body: JSON.stringify(newLeaderBoardEntry),
-    })
-      .then((r) => r.json())
+    }).then((r) => r.json());
   }
 
   return (
@@ -74,19 +68,29 @@ export default function QuizResults({
                 <Statistic.Label>Wrong/Skipped</Statistic.Label>
               </Statistic>
             </Statistic.Group>
-            <br /><br />
-            <Button color="green" onClick={handleClick}>Play again</Button>
+            <br />
+            <br />
+            <Button color="green" onClick={handleClick}>
+              Play again
+            </Button>
             <br />
             <br />
 
             <Grid columns="equal">
               <Grid.Column></Grid.Column>
-              <Grid.Column>
+              <Grid.Column width="10">
                 <Form>
                   <Form.Field>
                     <input placeholder="First Name" />
                   </Form.Field>
-                  <Button type="submit" onClick={handleAddToLeaderBoard}>
+                  <Form.Field>
+                    <input placeholder="Message" />
+                  </Form.Field>
+                  <Button
+                    type="submit"
+                    onClick={handleAddToLeaderBoard}
+                    color="teal"
+                  >
                     Add to Leaderboard
                   </Button>
                 </Form>

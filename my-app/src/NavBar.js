@@ -1,10 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Menu, Grid, Icon } from "semantic-ui-react";
+import { Menu, Grid } from "semantic-ui-react";
 
 function NavBar() {
   return (
-    <>
       <Grid columns="equal">
         <Grid.Column></Grid.Column>
         <Grid.Column textAlign="center">
@@ -26,7 +25,6 @@ function NavBar() {
 
         <Grid.Column></Grid.Column>
       </Grid>
-    </>
   );
 }
 
